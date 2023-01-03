@@ -1,17 +1,21 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from rclpy.qos import QoSProfile
 
 class M_pub(Node):
   def __init__(self):
     super().__init__('message_publisher')
-    self.message_ppublisher = self.create_publisher(String, 'm_pub', 10)
-    self.timer = self.create_timer(1, self.m_publishers)
+    self.qos_profile = QoSProfile(depth = 10)
+    self.message_publisher = self.create_publisher(String, 'm_pub', qos_profile=self.qos_profile)
+    self.timer = self.create_timer(1, self.m_publisher)
     self.count = 0
 
-  def m_publisher(self, msg):
-    msg.data = 'hellow' + self.count
-    self.message_publisher.publish(img)
+  def m_publisher(self):
+    msg = String()
+    msg.data = f'hellow {self.count}'
+    self.message_publisher.publish(msg)
+    self.get_logger().info('Published message: {}'.format(msg.data))
     self.count += 1
 
 def main(args=None):
@@ -22,7 +26,7 @@ def main(args=None):
   except KeyboardInterrupt:
     node.get_logger().info('Keyboard interrupt!!!!')
   finally:
-    node.distroy_node()
+    node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

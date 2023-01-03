@@ -1,0 +1,26 @@
+[1.034s] Invoking command in '/home/psh/ros_code/build/m_pubsub': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
+[1.351s] running develop
+[1.543s] running egg_info
+[1.543s] creating m_pubsub.egg-info
+[1.544s] writing m_pubsub.egg-info/PKG-INFO
+[1.544s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[1.545s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[1.545s] writing requirements to m_pubsub.egg-info/requires.txt
+[1.545s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[1.590s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.629s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.630s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.677s] running build_ext
+[1.678s] Creating /home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages/site.py
+[1.680s] Creating /home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[1.681s] Installing mp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.682s] Installing ms script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.682s] 
+[1.682s] Installed /home/psh/ros_code/build/m_pubsub
+[1.682s] running install_data
+[1.682s] creating /home/psh/ros_code/install/m_pubsub/share/ament_index
+[1.683s] creating /home/psh/ros_code/install/m_pubsub/share/ament_index/resource_index
+[1.683s] creating /home/psh/ros_code/install/m_pubsub/share/ament_index/resource_index/packages
+[1.683s] copying resource/m_pubsub -> /home/psh/ros_code/install/m_pubsub/share/ament_index/resource_index/packages
+[1.683s] copying package.xml -> /home/psh/ros_code/install/m_pubsub/share/m_pubsub
+[1.722s] Invoked command in '/home/psh/ros_code/build/m_pubsub' returned '0': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
