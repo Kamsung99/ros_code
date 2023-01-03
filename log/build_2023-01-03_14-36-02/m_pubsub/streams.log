@@ -1,0 +1,21 @@
+[1.302s] Invoking command in '/home/psh/ros_code/build/m_pubsub': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
+[1.648s] running develop
+[1.850s] running egg_info
+[1.850s] writing m_pubsub.egg-info/PKG-INFO
+[1.851s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[1.852s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[1.853s] writing requirements to m_pubsub.egg-info/requires.txt
+[1.854s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[1.899s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.901s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[1.963s] running build_ext
+[1.965s] Creating /home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[1.967s] Installing met script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.968s] Installing mp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.969s] Installing ms script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.969s] Installing mt script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.970s] Installing tp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub
+[1.971s] 
+[1.972s] Installed /home/psh/ros_code/build/m_pubsub
+[1.972s] running install_data
+[2.029s] Invoked command in '/home/psh/ros_code/build/m_pubsub' returned '0': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
