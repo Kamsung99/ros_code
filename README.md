@@ -42,3 +42,9 @@
 	* ros2 service call /turtle1/set_pen turtlesim/srv/SetPen "{r: 100, g: 100, b: 100, width: 5}"
 
 * + opencv2에서 이미지 로드, 회전, 색상 변경 등 진행
+---
+# 2023_1_4
+---
+* 서비스 설명
+* 서비스 코드 작성
+* 인터페이스
