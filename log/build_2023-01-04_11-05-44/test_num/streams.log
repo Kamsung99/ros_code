@@ -1,0 +1,23 @@
+[0.980s] Invoking command in '/home/psh/ros_code/build/test_num': PYTHONPATH=/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_num/build --no-deps install_data
+[1.335s] running develop
+[1.524s] running egg_info
+[1.524s] creating test_num.egg-info
+[1.524s] writing test_num.egg-info/PKG-INFO
+[1.525s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[1.526s] writing entry points to test_num.egg-info/entry_points.txt
+[1.526s] writing requirements to test_num.egg-info/requires.txt
+[1.526s] writing top-level names to test_num.egg-info/top_level.txt
+[1.532s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.573s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[1.574s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[1.619s] running build_ext
+[1.620s] Creating /home/psh/ros_code/install/test_num/lib/python3.8/site-packages/site.py
+[1.623s] Creating /home/psh/ros_code/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[1.625s] 
+[1.625s] Installed /home/psh/ros_code/build/test_num
+[1.625s] running install_data
+[1.626s] creating /home/psh/ros_code/install/test_num/share/ament_index
+[1.626s] creating /home/psh/ros_code/install/test_num/share/ament_index/resource_index
+[1.626s] creating /home/psh/ros_code/install/test_num/share/ament_index/resource_index/packages
+[1.627s] copying resource/test_num -> /home/psh/ros_code/install/test_num/share/ament_index/resource_index/packages
+[1.627s] copying package.xml -> /home/psh/ros_code/install/test_num/share/test_num

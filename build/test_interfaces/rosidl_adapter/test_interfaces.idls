@@ -1,0 +1,3 @@
+/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces:msg/Intfloat.idl
+/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces:srv/AddThreeInts.idl
+/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces:srv/MinusThreeInts.idl

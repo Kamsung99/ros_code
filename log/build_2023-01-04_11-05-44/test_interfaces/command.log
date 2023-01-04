@@ -1,0 +1,2 @@
+Invoking command in '/home/psh/ros_code/build/test_interfaces': /usr/bin/cmake /home/psh/ros_code/src/test_interfaces -DCMAKE_INSTALL_PREFIX=/home/psh/ros_code/install/test_interfaces
+Invoked command in '/home/psh/ros_code/build/test_interfaces' returned '1': /usr/bin/cmake /home/psh/ros_code/src/test_interfaces -DCMAKE_INSTALL_PREFIX=/home/psh/ros_code/install/test_interfaces
