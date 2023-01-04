@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'mss1 = test_num.test_service_ser1:main',
-            'msc = test_num.test_service_client:main'
+            'msc = test_num.test_service_client:main',
+            'fas = test_num.fibonacci_action_server:main',
+            'fac = test_num.fibonacci_action_client:main'
         ],
     },
 )

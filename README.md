@@ -45,8 +45,10 @@
 ---
 # 2023_1_4
 ---
-* 서비스 설명
+* 서비스는 토픽처럼 주기적이 아닌 일회성으로 사용할때 사용한다.
 * 서비스 코드 작성
+	* ./test_num/test_service_client.py -> 클라이언트
+	* ./test_num/test_service_ser1.py -> 서버
 * 인터페이스
 * 에러 발생
 	* Traceback (most recent call last):
