@@ -1,0 +1,125 @@
+[0.072s] Invoking command in '/home/psh/ros_code/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/psh/ros_code/build/test_interfaces -- -j1 -l1
+[0.219s] [ 10%] Built target test_interfaces__rosidl_generator_c
+[0.258s] [ 21%] Built target test_interfaces__rosidl_typesupport_introspection_c
+[0.298s] [ 31%] Built target test_interfaces__rosidl_typesupport_c
+[0.329s] [ 34%] Built target test_interfaces__cpp
+[0.365s] [ 44%] Built target test_interfaces__rosidl_typesupport_introspection_cpp
+[0.433s] [ 55%] Built target test_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.540s] [ 65%] Built target test_interfaces__rosidl_typesupport_fastrtps_c
+[0.579s] [ 76%] Built target test_interfaces__rosidl_typesupport_cpp
+[0.610s] [ 76%] Built target test_interfaces
+[0.644s] [ 78%] Built target test_interfaces__py
+[0.693s] [ 87%] Built target test_interfaces__python
+[0.734s] [ 91%] Built target test_interfaces__rosidl_typesupport_c__pyext
+[0.785s] [ 95%] Built target test_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.825s] [100%] Built target test_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.854s] Invoked command in '/home/psh/ros_code/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/psh/ros_code/build/test_interfaces -- -j1 -l1
+[1.064s] Invoking command in '/home/psh/ros_code/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/psh/ros_code/build/test_interfaces
+[1.092s] -- Install configuration: ""
+[1.095s] -- Execute custom install script
+[1.096s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/rosidl_interfaces/test_interfaces
+[1.098s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__functions.h
+[1.099s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.h
+[1.099s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__type_support.h
+[1.100s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.h
+[1.101s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.102s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.h
+[1.103s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__functions.h
+[1.104s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.h
+[1.105s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__type_support.h
+[1.106s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__functions.h
+[1.107s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.h
+[1.108s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__type_support.h
+[1.109s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.h
+[1.110s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.sh
+[1.111s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.dsv
+[1.117s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h
+[1.118s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.119s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[1.120s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h
+[1.122s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.124s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp
+[1.125s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.126s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.127s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.129s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.131s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_c.h
+[1.131s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.132s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[1.133s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h
+[1.134s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__builder.hpp
+[1.135s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.hpp
+[1.136s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__traits.hpp
+[1.137s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.hpp
+[1.137s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.hpp
+[1.138s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__builder.hpp
+[1.139s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.hpp
+[1.139s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__traits.hpp
+[1.140s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__builder.hpp
+[1.141s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.hpp
+[1.142s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__traits.hpp
+[1.143s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.hpp
+[1.144s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp
+[1.145s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.146s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.147s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.sh
+[1.148s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.dsv
+[1.149s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/__init__.py
+[1.150s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/__init__.py
+[1.151s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/_intfloat.py
+[1.152s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/__init__.py
+[1.154s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_add_three_ints.py
+[1.155s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_minus_three_ints.py
+[1.156s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.158s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.160s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.162s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__python.so
+[1.163s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.idl
+[1.164s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.idl
+[1.164s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.idl
+[1.165s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.msg
+[1.166s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.srv
+[1.167s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Request.msg
+[1.168s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Response.msg
+[1.170s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.srv
+[1.171s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Request.msg
+[1.172s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Response.msg
+[1.176s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/package_run_dependencies/test_interfaces
+[1.177s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/parent_prefix_path/test_interfaces
+[1.178s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.sh
+[1.179s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.dsv
+[1.179s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.sh
+[1.180s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.dsv
+[1.181s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.bash
+[1.182s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.sh
+[1.183s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.zsh
+[1.184s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.dsv
+[1.185s] -- Symlinking: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.dsv
+[1.202s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/packages/test_interfaces
+[1.203s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.204s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.205s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.206s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.207s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.208s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.209s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.211s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig.cmake
+[1.212s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig-version.cmake
+[1.213s] -- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.xml
+[1.214s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_c.so
+[1.216s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_c.so
+[1.217s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_c.so
+[1.219s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.220s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_cpp.so
+[1.314s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport.cmake
+[1.314s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.315s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.316s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.317s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport.cmake
+[1.318s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.319s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cppExport.cmake
+[1.320s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.321s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.322s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport.cmake
+[1.322s] -- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.327s] Invoked command in '/home/psh/ros_code/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/psh/ros_code/build/test_interfaces

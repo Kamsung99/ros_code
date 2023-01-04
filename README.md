@@ -48,3 +48,23 @@
 * 서비스 설명
 * 서비스 코드 작성
 * 인터페이스
+* 에러 발생
+	Traceback (most recent call last):
+		File "<string>", line 1, in <module>
+		File "/usr/lib/python3.8/distutils/core.py", line 215, in run_setup
+			exec(f.read(), g)
+		File "<string>", line 28, in <module>
+	NameError: name 'e' is not defined
+	[1.604s] ERROR:colcon.colcon_core.package_identification:Exception in package identification extension 'python_setup_py' in 'backup': Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+	Traceback (most recent call last):
+		File "/usr/lib/python3/dist-packages/colcon_core/package_identification/__init__.py", line 142, in _identify
+			retval = extension.identify(_reused_descriptor_instance)
+		File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 48, in identify
+			config = get_setup_information(setup_py)
+		File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information
+			_setup_information_cache[hashable_env] = _get_setup_information(
+		File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information
+			result = subprocess.run(
+		File "/usr/lib/python3.8/subprocess.py", line 516, in run
+			raise CalledProcessError(retcode, process.args,
+	subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.

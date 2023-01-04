@@ -1,1 +1,1 @@
-/home/psh/ros_code/src/test_num/setup.py
+/home/psh/ros_code/test_num/setup.py

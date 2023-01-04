@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.003079] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.003226] (move_turtle_pkg) JobQueued: {'identifier': 'move_turtle_pkg', 'dependencies': OrderedDict()}
+[0.003293] (test_interfaces) JobQueued: {'identifier': 'test_interfaces', 'dependencies': OrderedDict()}
+[0.003351] (test_num) JobQueued: {'identifier': 'test_num', 'dependencies': OrderedDict()}
+[0.003408] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.097986] (-) TimerEvent: {}
+[0.198684] (-) TimerEvent: {}
+[0.299320] (-) TimerEvent: {}
+[0.399877] (-) TimerEvent: {}
+[0.500400] (-) TimerEvent: {}
+[0.601013] (-) TimerEvent: {}
+[0.701729] (-) TimerEvent: {}
+[0.804533] (-) TimerEvent: {}
+[0.905230] (-) TimerEvent: {}
+[1.005848] (-) TimerEvent: {}
+[1.106363] (-) TimerEvent: {}
+[1.206902] (-) TimerEvent: {}
+[1.307437] (-) TimerEvent: {}
+[1.408023] (-) TimerEvent: {}
+[1.508608] (-) TimerEvent: {}
+[1.600942] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/m_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[1.608988] (-) TimerEvent: {}
+[1.710090] (-) TimerEvent: {}
+[1.810736] (-) TimerEvent: {}
+[1.911324] (-) TimerEvent: {}
+[2.011938] (-) TimerEvent: {}
+[2.112497] (-) TimerEvent: {}
+[2.136228] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[2.212640] (-) TimerEvent: {}
+[2.313245] (-) TimerEvent: {}
+[2.414017] (-) TimerEvent: {}
+[2.435757] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.436667] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[2.437557] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[2.438469] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[2.439133] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[2.439784] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[2.514216] (-) TimerEvent: {}
+[2.531407] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[2.533360] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[2.614337] (-) TimerEvent: {}
+[2.621294] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[2.622580] (m_pubsub) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[2.624613] (m_pubsub) StdoutLine: {'line': b'Installing met script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.626415] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.627147] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.627935] (m_pubsub) StdoutLine: {'line': b'Installing mt script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.628832] (m_pubsub) StdoutLine: {'line': b'Installing tp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.629901] (m_pubsub) StdoutLine: {'line': b'\n'}
+[2.630485] (m_pubsub) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/m_pubsub\n'}
+[2.631223] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.688904] (m_pubsub) CommandEnded: {'returncode': 0}
+[2.715510] (-) TimerEvent: {}
+[2.755725] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[2.756868] (move_turtle_pkg) JobStarted: {'identifier': 'move_turtle_pkg'}
+[2.816262] (-) TimerEvent: {}
+[2.917739] (-) TimerEvent: {}
+[3.018462] (-) TimerEvent: {}
+[3.118995] (-) TimerEvent: {}
+[3.219510] (-) TimerEvent: {}
+[3.320040] (-) TimerEvent: {}
+[3.420644] (-) TimerEvent: {}
+[3.521695] (-) TimerEvent: {}
+[3.622308] (-) TimerEvent: {}
+[3.723437] (-) TimerEvent: {}
+[3.824049] (-) TimerEvent: {}
+[3.926275] (-) TimerEvent: {}
+[4.026759] (-) TimerEvent: {}
+[4.127351] (-) TimerEvent: {}
+[4.227945] (-) TimerEvent: {}
+[4.272759] (move_turtle_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/move_turtle_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/move_turtle_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/move_turtle_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[4.329910] (-) TimerEvent: {}
+[4.430611] (-) TimerEvent: {}
+[4.531221] (-) TimerEvent: {}
+[4.631716] (-) TimerEvent: {}
+[4.732226] (-) TimerEvent: {}
+[4.802281] (move_turtle_pkg) StdoutLine: {'line': b'running develop\n'}
+[4.832386] (-) TimerEvent: {}
+[4.933009] (-) TimerEvent: {}
+[5.033864] (-) TimerEvent: {}
+[5.077858] (move_turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.079094] (move_turtle_pkg) StdoutLine: {'line': b'writing move_turtle_pkg.egg-info/PKG-INFO\n'}
+[5.080251] (move_turtle_pkg) StdoutLine: {'line': b'writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt\n'}
+[5.081887] (move_turtle_pkg) StdoutLine: {'line': b'writing entry points to move_turtle_pkg.egg-info/entry_points.txt\n'}
+[5.082851] (move_turtle_pkg) StdoutLine: {'line': b'writing requirements to move_turtle_pkg.egg-info/requires.txt\n'}
+[5.083558] (move_turtle_pkg) StdoutLine: {'line': b'writing top-level names to move_turtle_pkg.egg-info/top_level.txt\n'}
+[5.135811] (-) TimerEvent: {}
+[5.176427] (move_turtle_pkg) StdoutLine: {'line': b"reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.178394] (move_turtle_pkg) StdoutLine: {'line': b"writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.234133] (-) TimerEvent: {}
+[5.263390] (move_turtle_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.265727] (move_turtle_pkg) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)\n'}
+[5.268014] (move_turtle_pkg) StdoutLine: {'line': b'Installing move_turtle script to /home/psh/ros_code/install/move_turtle_pkg/lib/move_turtle_pkg\n'}
+[5.271785] (move_turtle_pkg) StdoutLine: {'line': b'\n'}
+[5.272154] (move_turtle_pkg) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/move_turtle_pkg\n'}
+[5.272568] (move_turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.321200] (move_turtle_pkg) CommandEnded: {'returncode': 0}
+[5.334279] (-) TimerEvent: {}
+[5.378649] (move_turtle_pkg) JobEnded: {'identifier': 'move_turtle_pkg', 'rc': 0}
+[5.380144] (test_interfaces) JobStarted: {'identifier': 'test_interfaces'}
+[5.435201] (-) TimerEvent: {}
+[5.436509] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'cmake'}
+[5.438788] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'build'}
+[5.440687] (test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psh/ros_code/build/test_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/psh/ros_code/build/test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'psh'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1153'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/psh'), ('OLDPWD', '/home/psh/ros_code'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '85905'), ('_colcon_cd_root', '/home/psh/ros_code'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/psh/ros_code/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'psh'), ('JOURNAL_STREAM', '8:29414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'psh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '31d50477d1b34929a996356eb769214a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/psh/ros_code/build/test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[5.535459] (-) TimerEvent: {}
+[5.632140] (test_interfaces) StdoutLine: {'line': b'[ 10%] Built target test_interfaces__rosidl_generator_c\n'}
+[5.636381] (-) TimerEvent: {}
+[5.673835] (test_interfaces) StdoutLine: {'line': b'[ 21%] Built target test_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.707281] (test_interfaces) StdoutLine: {'line': b'[ 31%] Built target test_interfaces__rosidl_typesupport_c\n'}
+[5.736529] (-) TimerEvent: {}
+[5.742248] (test_interfaces) StdoutLine: {'line': b'[ 34%] Built target test_interfaces__cpp\n'}
+[5.784473] (test_interfaces) StdoutLine: {'line': b'[ 44%] Built target test_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.827814] (test_interfaces) StdoutLine: {'line': b'[ 55%] Built target test_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.836935] (-) TimerEvent: {}
+[5.883744] (test_interfaces) StdoutLine: {'line': b'[ 65%] Built target test_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.918472] (test_interfaces) StdoutLine: {'line': b'[ 76%] Built target test_interfaces__rosidl_typesupport_cpp\n'}
+[5.937126] (-) TimerEvent: {}
+[5.950738] (test_interfaces) StdoutLine: {'line': b'[ 76%] Built target test_interfaces\n'}
+[5.990376] (test_interfaces) StdoutLine: {'line': b'[ 78%] Built target test_interfaces__py\n'}
+[6.034178] (test_interfaces) StdoutLine: {'line': b'[ 87%] Built target test_interfaces__python\n'}
+[6.037247] (-) TimerEvent: {}
+[6.078346] (test_interfaces) StdoutLine: {'line': b'[ 91%] Built target test_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.118706] (test_interfaces) StdoutLine: {'line': b'[ 95%] Built target test_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.137496] (-) TimerEvent: {}
+[6.165462] (test_interfaces) StdoutLine: {'line': b'[100%] Built target test_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.202936] (test_interfaces) CommandEnded: {'returncode': 0}
+[6.237685] (-) TimerEvent: {}
+[6.338489] (-) TimerEvent: {}
+[6.352846] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'install'}
+[6.369860] (test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psh/ros_code/build/test_interfaces'], 'cwd': '/home/psh/ros_code/build/test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'psh'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1153'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/psh'), ('OLDPWD', '/home/psh/ros_code'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '85905'), ('_colcon_cd_root', '/home/psh/ros_code'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/psh/ros_code/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'psh'), ('JOURNAL_STREAM', '8:29414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'psh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '31d50477d1b34929a996356eb769214a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/psh/ros_code/build/test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[6.394532] (test_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.397188] (test_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.398863] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/rosidl_interfaces/test_interfaces\n'}
+[6.401975] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__functions.h\n'}
+[6.403162] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.h\n'}
+[6.403916] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__type_support.h\n'}
+[6.404589] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.h\n'}
+[6.405306] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.406056] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.h\n'}
+[6.407203] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[6.408030] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[6.408764] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[6.409455] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__functions.h\n'}
+[6.410379] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.h\n'}
+[6.411155] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__type_support.h\n'}
+[6.411880] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.h\n'}
+[6.412787] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.sh\n'}
+[6.413634] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.dsv\n'}
+[6.415260] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h\n'}
+[6.416041] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.416957] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[6.418063] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[6.419455] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.421162] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.421948] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.422758] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.423468] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.424610] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.425934] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_c.h\n'}
+[6.426780] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.427507] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[6.428156] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[6.429608] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__builder.hpp\n'}
+[6.430684] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.hpp\n'}
+[6.431467] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__traits.hpp\n'}
+[6.432304] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.hpp\n'}
+[6.432968] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.hpp\n'}
+[6.433693] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[6.434460] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[6.435180] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[6.435830] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__builder.hpp\n'}
+[6.436555] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.hpp\n'}
+[6.437270] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__traits.hpp\n'}
+[6.438199] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.hpp\n'}
+[6.438534] (-) TimerEvent: {}
+[6.439991] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.440717] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.441489] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.442772] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.sh\n'}
+[6.444266] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.dsv\n'}
+[6.445324] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/__init__.py\n'}
+[6.446945] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/__init__.py\n'}
+[6.448138] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/_intfloat.py\n'}
+[6.450148] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/__init__.py\n'}
+[6.451054] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_add_three_ints.py\n'}
+[6.451863] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_minus_three_ints.py\n'}
+[6.453019] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.454241] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.455257] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.456302] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__python.so\n'}
+[6.457296] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.idl\n'}
+[6.458351] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.idl\n'}
+[6.459507] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.idl\n'}
+[6.460536] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.msg\n'}
+[6.461549] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.srv\n'}
+[6.462570] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Request.msg\n'}
+[6.463434] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Response.msg\n'}
+[6.464393] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.srv\n'}
+[6.465231] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Request.msg\n'}
+[6.467222] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Response.msg\n'}
+[6.468158] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/package_run_dependencies/test_interfaces\n'}
+[6.469093] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/parent_prefix_path/test_interfaces\n'}
+[6.470336] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.sh\n'}
+[6.473932] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.475306] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.sh\n'}
+[6.476288] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.dsv\n'}
+[6.477298] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.bash\n'}
+[6.478444] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.sh\n'}
+[6.479362] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.zsh\n'}
+[6.480219] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.dsv\n'}
+[6.481006] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.dsv\n'}
+[6.495470] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/packages/test_interfaces\n'}
+[6.496909] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.497849] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.498802] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.499672] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.500771] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.501790] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.503172] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.504436] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig.cmake\n'}
+[6.505211] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig-version.cmake\n'}
+[6.506099] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.xml\n'}
+[6.507324] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_c.so\n'}
+[6.508456] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.509744] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_c.so\n'}
+[6.511129] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.512723] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_cpp.so\n'}
+[6.538693] (-) TimerEvent: {}
+[6.597237] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.598482] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.599495] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.600109] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.600812] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.601343] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.601944] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.603336] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.603998] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.604624] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.605172] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.609127] (test_interfaces) CommandEnded: {'returncode': 0}
+[6.638912] (-) TimerEvent: {}
+[6.739522] (-) TimerEvent: {}
+[6.841801] (-) TimerEvent: {}
+[6.900579] (test_interfaces) JobEnded: {'identifier': 'test_interfaces', 'rc': 0}
+[6.901965] (test_num) JobStarted: {'identifier': 'test_num'}
+[6.950953] (-) TimerEvent: {}
+[7.052341] (-) TimerEvent: {}
+[7.153105] (-) TimerEvent: {}
+[7.254187] (-) TimerEvent: {}
+[7.355786] (-) TimerEvent: {}
+[7.456308] (-) TimerEvent: {}
+[7.556938] (-) TimerEvent: {}
+[7.657625] (-) TimerEvent: {}
+[7.758379] (-) TimerEvent: {}
+[7.860674] (-) TimerEvent: {}
+[7.962230] (-) TimerEvent: {}
+[8.062820] (-) TimerEvent: {}
+[8.163416] (-) TimerEvent: {}
+[8.264004] (-) TimerEvent: {}
+[8.364664] (-) TimerEvent: {}
+[8.447078] (test_num) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/test_num/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/test_num', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/test_num', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[8.464862] (-) TimerEvent: {}
+[8.565662] (-) TimerEvent: {}
+[8.666337] (-) TimerEvent: {}
+[8.767509] (-) TimerEvent: {}
+[8.868116] (-) TimerEvent: {}
+[8.968758] (-) TimerEvent: {}
+[8.982011] (test_num) StdoutLine: {'line': b'running develop\n'}
+[9.069455] (-) TimerEvent: {}
+[9.170103] (-) TimerEvent: {}
+[9.252718] (test_num) StdoutLine: {'line': b'running egg_info\n'}
+[9.253713] (test_num) StdoutLine: {'line': b'writing test_num.egg-info/PKG-INFO\n'}
+[9.255007] (test_num) StdoutLine: {'line': b'writing dependency_links to test_num.egg-info/dependency_links.txt\n'}
+[9.255863] (test_num) StdoutLine: {'line': b'writing entry points to test_num.egg-info/entry_points.txt\n'}
+[9.256539] (test_num) StdoutLine: {'line': b'writing requirements to test_num.egg-info/requires.txt\n'}
+[9.257223] (test_num) StdoutLine: {'line': b'writing top-level names to test_num.egg-info/top_level.txt\n'}
+[9.270240] (-) TimerEvent: {}
+[9.342924] (test_num) StdoutLine: {'line': b"reading manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[9.344809] (test_num) StdoutLine: {'line': b"writing manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[9.370375] (-) TimerEvent: {}
+[9.432837] (test_num) StdoutLine: {'line': b'running build_ext\n'}
+[9.434427] (test_num) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)\n'}
+[9.436900] (test_num) StdoutLine: {'line': b'Installing msc script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[9.437820] (test_num) StdoutLine: {'line': b'Installing mss1 script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[9.439094] (test_num) StdoutLine: {'line': b'\n'}
+[9.439587] (test_num) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/test_num\n'}
+[9.440045] (test_num) StdoutLine: {'line': b'running install_data\n'}
+[9.440588] (test_num) StdoutLine: {'line': b'copying resource/test_num -> /home/psh/ros_code/install/test_num/share/ament_index/resource_index/packages\n'}
+[9.441355] (test_num) StdoutLine: {'line': b'copying package.xml -> /home/psh/ros_code/install/test_num/share/test_num\n'}
+[9.470577] (-) TimerEvent: {}
+[9.507927] (test_num) CommandEnded: {'returncode': 0}
+[9.556855] (test_num) JobEnded: {'identifier': 'test_num', 'rc': 0}
+[9.558666] (-) EventReactorShutdown: {}
