@@ -1,0 +1,17 @@
+[1.479s] Invoking command in '/home/psh/ros_code/build/move_turtle_pkg': PYTHONPATH=/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/move_turtle_pkg/build --no-deps install_data
+[1.980s] running develop
+[2.253s] running egg_info
+[2.253s] writing move_turtle_pkg.egg-info/PKG-INFO
+[2.254s] writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt
+[2.255s] writing entry points to move_turtle_pkg.egg-info/entry_points.txt
+[2.256s] writing requirements to move_turtle_pkg.egg-info/requires.txt
+[2.257s] writing top-level names to move_turtle_pkg.egg-info/top_level.txt
+[2.341s] reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.343s] writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'
+[2.429s] running build_ext
+[2.430s] Creating /home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)
+[2.432s] Installing move_turtle script to /home/psh/ros_code/install/move_turtle_pkg/lib/move_turtle_pkg
+[2.433s] 
+[2.433s] Installed /home/psh/ros_code/build/move_turtle_pkg
+[2.434s] running install_data
+[2.487s] Invoked command in '/home/psh/ros_code/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/move_turtle_pkg/build --no-deps install_data
