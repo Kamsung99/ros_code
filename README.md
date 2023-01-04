@@ -49,7 +49,7 @@
 * 서비스 코드 작성
 * 인터페이스
 * 에러 발생
-	Traceback (most recent call last):
+	* Traceback (most recent call last):
 		File "<string>", line 1, in <module>
 		File "/usr/lib/python3.8/distutils/core.py", line 215, in run_setup
 			exec(f.read(), g)
