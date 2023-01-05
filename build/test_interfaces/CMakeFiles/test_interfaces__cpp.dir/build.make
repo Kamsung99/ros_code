@@ -65,6 +65,10 @@ CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/minus_
 CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__builder.hpp
 CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__struct.hpp
 CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__traits.hpp
+CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/fibonacci.hpp
+CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__builder.hpp
+CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__struct.hpp
+CMakeFiles/test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__traits.hpp
 
 
 rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -85,6 +89,14 @@ rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/rosid
 rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: rosidl_adapter/test_interfaces/msg/Intfloat.idl
 rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: rosidl_adapter/test_interfaces/srv/AddThreeInts.idl
 rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: rosidl_adapter/test_interfaces/srv/MinusThreeInts.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: rosidl_adapter/test_interfaces/action/Fibonacci.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp: /opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/psh/ros_code/build/test_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/psh/ros_code/build/test_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -121,6 +133,18 @@ rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__struct.hpp: ro
 rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__traits.hpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__traits.hpp
 
+rosidl_generator_cpp/test_interfaces/action/fibonacci.hpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/test_interfaces/action/fibonacci.hpp
+
+rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__builder.hpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__builder.hpp
+
+rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__struct.hpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__struct.hpp
+
+rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__traits.hpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__traits.hpp
+
 test_interfaces__cpp: CMakeFiles/test_interfaces__cpp
 test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/msg/intfloat.hpp
 test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/msg/detail/intfloat__builder.hpp
@@ -134,6 +158,10 @@ test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/minus_three_ints.
 test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__builder.hpp
 test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__struct.hpp
 test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/srv/detail/minus_three_ints__traits.hpp
+test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/fibonacci.hpp
+test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__builder.hpp
+test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__struct.hpp
+test_interfaces__cpp: rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__traits.hpp
 test_interfaces__cpp: CMakeFiles/test_interfaces__cpp.dir/build.make
 
 .PHONY : test_interfaces__cpp

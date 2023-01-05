@@ -1,0 +1,1082 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.000488] (move_turtle_pkg) JobQueued: {'identifier': 'move_turtle_pkg', 'dependencies': OrderedDict()}
+[0.000553] (test_interfaces) JobQueued: {'identifier': 'test_interfaces', 'dependencies': OrderedDict()}
+[0.002144] (test_num) JobQueued: {'identifier': 'test_num', 'dependencies': OrderedDict()}
+[0.002209] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.094092] (-) TimerEvent: {}
+[0.195522] (-) TimerEvent: {}
+[0.295895] (-) TimerEvent: {}
+[0.396428] (-) TimerEvent: {}
+[0.496977] (-) TimerEvent: {}
+[0.597520] (-) TimerEvent: {}
+[0.698366] (-) TimerEvent: {}
+[0.799037] (-) TimerEvent: {}
+[0.899829] (-) TimerEvent: {}
+[1.000365] (-) TimerEvent: {}
+[1.100915] (-) TimerEvent: {}
+[1.201497] (-) TimerEvent: {}
+[1.302032] (-) TimerEvent: {}
+[1.402559] (-) TimerEvent: {}
+[1.503080] (-) TimerEvent: {}
+[1.604540] (-) TimerEvent: {}
+[1.605113] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/m_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[1.704773] (-) TimerEvent: {}
+[1.805460] (-) TimerEvent: {}
+[1.906231] (-) TimerEvent: {}
+[2.006807] (-) TimerEvent: {}
+[2.107321] (-) TimerEvent: {}
+[2.170495] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[2.207446] (-) TimerEvent: {}
+[2.308039] (-) TimerEvent: {}
+[2.408687] (-) TimerEvent: {}
+[2.452494] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.453358] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[2.454357] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[2.455271] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[2.455955] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[2.456578] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[2.508806] (-) TimerEvent: {}
+[2.537470] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[2.539815] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[2.608961] (-) TimerEvent: {}
+[2.631012] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[2.632244] (m_pubsub) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[2.634411] (m_pubsub) StdoutLine: {'line': b'Installing met script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.635442] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.637385] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.638082] (m_pubsub) StdoutLine: {'line': b'Installing mt script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.639022] (m_pubsub) StdoutLine: {'line': b'Installing tp script to /home/psh/ros_code/install/m_pubsub/lib/m_pubsub\n'}
+[2.639959] (m_pubsub) StdoutLine: {'line': b'\n'}
+[2.640411] (m_pubsub) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/m_pubsub\n'}
+[2.640818] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.709133] (-) TimerEvent: {}
+[2.712184] (m_pubsub) CommandEnded: {'returncode': 0}
+[2.774611] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[2.776120] (move_turtle_pkg) JobStarted: {'identifier': 'move_turtle_pkg'}
+[2.815410] (-) TimerEvent: {}
+[2.919040] (-) TimerEvent: {}
+[3.019760] (-) TimerEvent: {}
+[3.123116] (-) TimerEvent: {}
+[3.223782] (-) TimerEvent: {}
+[3.324400] (-) TimerEvent: {}
+[3.424947] (-) TimerEvent: {}
+[3.526500] (-) TimerEvent: {}
+[3.627153] (-) TimerEvent: {}
+[3.728415] (-) TimerEvent: {}
+[3.829614] (-) TimerEvent: {}
+[3.930370] (-) TimerEvent: {}
+[4.031007] (-) TimerEvent: {}
+[4.132404] (-) TimerEvent: {}
+[4.233006] (-) TimerEvent: {}
+[4.333568] (-) TimerEvent: {}
+[4.434116] (-) TimerEvent: {}
+[4.506795] (move_turtle_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/move_turtle_pkg/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/move_turtle_pkg', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/move_turtle_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[4.534340] (-) TimerEvent: {}
+[4.635151] (-) TimerEvent: {}
+[4.735714] (-) TimerEvent: {}
+[4.836234] (-) TimerEvent: {}
+[4.936863] (-) TimerEvent: {}
+[5.036825] (move_turtle_pkg) StdoutLine: {'line': b'running develop\n'}
+[5.037401] (-) TimerEvent: {}
+[5.137923] (-) TimerEvent: {}
+[5.238721] (-) TimerEvent: {}
+[5.339247] (-) TimerEvent: {}
+[5.342660] (move_turtle_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.343820] (move_turtle_pkg) StdoutLine: {'line': b'writing move_turtle_pkg.egg-info/PKG-INFO\n'}
+[5.345043] (move_turtle_pkg) StdoutLine: {'line': b'writing dependency_links to move_turtle_pkg.egg-info/dependency_links.txt\n'}
+[5.346227] (move_turtle_pkg) StdoutLine: {'line': b'writing entry points to move_turtle_pkg.egg-info/entry_points.txt\n'}
+[5.347061] (move_turtle_pkg) StdoutLine: {'line': b'writing requirements to move_turtle_pkg.egg-info/requires.txt\n'}
+[5.347708] (move_turtle_pkg) StdoutLine: {'line': b'writing top-level names to move_turtle_pkg.egg-info/top_level.txt\n'}
+[5.432482] (move_turtle_pkg) StdoutLine: {'line': b"reading manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.434366] (move_turtle_pkg) StdoutLine: {'line': b"writing manifest file 'move_turtle_pkg.egg-info/SOURCES.txt'\n"}
+[5.439402] (-) TimerEvent: {}
+[5.526512] (move_turtle_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[5.527761] (move_turtle_pkg) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages/move-turtle-pkg.egg-link (link to .)\n'}
+[5.529633] (move_turtle_pkg) StdoutLine: {'line': b'Installing move_turtle script to /home/psh/ros_code/install/move_turtle_pkg/lib/move_turtle_pkg\n'}
+[5.530586] (move_turtle_pkg) StdoutLine: {'line': b'\n'}
+[5.531110] (move_turtle_pkg) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/move_turtle_pkg\n'}
+[5.531748] (move_turtle_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.539550] (-) TimerEvent: {}
+[5.601804] (move_turtle_pkg) CommandEnded: {'returncode': 0}
+[5.641154] (-) TimerEvent: {}
+[5.646941] (move_turtle_pkg) JobEnded: {'identifier': 'move_turtle_pkg', 'rc': 0}
+[5.648304] (test_interfaces) JobStarted: {'identifier': 'test_interfaces'}
+[5.709690] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'cmake'}
+[5.711304] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'build'}
+[5.716382] (test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/psh/ros_code/build/test_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/psh/ros_code/build/test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'psh'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1153'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/psh'), ('OLDPWD', '/home/psh/ros_code'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '85905'), ('_colcon_cd_root', '/home/psh/ros_code'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/psh/ros_code/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'psh'), ('JOURNAL_STREAM', '8:29414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'psh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '31d50477d1b34929a996356eb769214a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/psh/ros_code/build/test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[5.743019] (-) TimerEvent: {}
+[5.843626] (-) TimerEvent: {}
+[5.844447] (test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.943759] (-) TimerEvent: {}
+[5.962269] (test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.962896] (test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.043922] (-) TimerEvent: {}
+[6.144653] (-) TimerEvent: {}
+[6.245282] (-) TimerEvent: {}
+[6.345898] (-) TimerEvent: {}
+[6.417478] (test_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.446043] (-) TimerEvent: {}
+[6.451967] (test_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.461349] (test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.472463] (test_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.546165] (-) TimerEvent: {}
+[6.646779] (-) TimerEvent: {}
+[6.747370] (-) TimerEvent: {}
+[6.824021] (test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.847528] (-) TimerEvent: {}
+[6.948175] (-) TimerEvent: {}
+[6.953688] (test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.048318] (-) TimerEvent: {}
+[7.149309] (-) TimerEvent: {}
+[7.249936] (-) TimerEvent: {}
+[7.350482] (-) TimerEvent: {}
+[7.451020] (-) TimerEvent: {}
+[7.544356] (test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.551161] (-) TimerEvent: {}
+[7.651806] (-) TimerEvent: {}
+[7.755003] (-) TimerEvent: {}
+[7.844279] (test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.855161] (-) TimerEvent: {}
+[7.921212] (test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.955283] (-) TimerEvent: {}
+[7.985888] (test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.987954] (test_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.055450] (-) TimerEvent: {}
+[8.110918] (test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.111326] (test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.111541] (test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[8.155635] (-) TimerEvent: {}
+[8.206527] (test_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.255815] (-) TimerEvent: {}
+[8.260031] (test_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.265267] (test_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.269647] (test_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.286493] (test_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.355986] (-) TimerEvent: {}
+[8.456690] (-) TimerEvent: {}
+[8.499599] (test_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[8.515185] (test_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/psh/ros_code/build/test_interfaces\n'}
+[8.554368] (test_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.556807] (-) TimerEvent: {}
+[8.657354] (-) TimerEvent: {}
+[8.762361] (-) TimerEvent: {}
+[8.864332] (-) TimerEvent: {}
+[8.964881] (-) TimerEvent: {}
+[9.065463] (-) TimerEvent: {}
+[9.166036] (-) TimerEvent: {}
+[9.266636] (-) TimerEvent: {}
+[9.367253] (-) TimerEvent: {}
+[9.471376] (-) TimerEvent: {}
+[9.575155] (-) TimerEvent: {}
+[9.683021] (-) TimerEvent: {}
+[9.783449] (-) TimerEvent: {}
+[9.885261] (-) TimerEvent: {}
+[9.988757] (-) TimerEvent: {}
+[10.092059] (-) TimerEvent: {}
+[10.196234] (-) TimerEvent: {}
+[10.299177] (-) TimerEvent: {}
+[10.406324] (-) TimerEvent: {}
+[10.506938] (-) TimerEvent: {}
+[10.613114] (-) TimerEvent: {}
+[10.717587] (-) TimerEvent: {}
+[10.818569] (-) TimerEvent: {}
+[10.949584] (-) TimerEvent: {}
+[11.050523] (-) TimerEvent: {}
+[11.158617] (-) TimerEvent: {}
+[11.263031] (-) TimerEvent: {}
+[11.385843] (-) TimerEvent: {}
+[11.493398] (-) TimerEvent: {}
+[11.596940] (-) TimerEvent: {}
+[11.698965] (-) TimerEvent: {}
+[11.804156] (-) TimerEvent: {}
+[11.871520] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_generator_c\x1b[0m\n'}
+[11.906675] (-) TimerEvent: {}
+[11.925750] (test_interfaces) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/test_interfaces/msg/detail/intfloat__functions.c.o\x1b[0m\n'}
+[12.006946] (-) TimerEvent: {}
+[12.107333] (-) TimerEvent: {}
+[12.207810] (-) TimerEvent: {}
+[12.246130] (test_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/test_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[12.309384] (-) TimerEvent: {}
+[12.414644] (-) TimerEvent: {}
+[12.470812] (test_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/test_interfaces/srv/detail/minus_three_ints__functions.c.o\x1b[0m\n'}
+[12.519219] (-) TimerEvent: {}
+[12.622495] (-) TimerEvent: {}
+[12.699277] (test_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_generator_c.dir/rosidl_generator_c/test_interfaces/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[12.723281] (-) TimerEvent: {}
+[12.827821] (-) TimerEvent: {}
+[12.939640] (-) TimerEvent: {}
+[13.042524] (-) TimerEvent: {}
+[13.148070] (-) TimerEvent: {}
+[13.234015] (test_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking C shared library libtest_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[13.248477] (-) TimerEvent: {}
+[13.350302] (-) TimerEvent: {}
+[13.387716] (test_interfaces) StdoutLine: {'line': b'[ 10%] Built target test_interfaces__rosidl_generator_c\n'}
+[13.427787] (test_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.450974] (-) TimerEvent: {}
+[13.552172] (-) TimerEvent: {}
+[13.654484] (-) TimerEvent: {}
+[13.755104] (-) TimerEvent: {}
+[13.859190] (-) TimerEvent: {}
+[13.962999] (-) TimerEvent: {}
+[14.063450] (-) TimerEvent: {}
+[14.165083] (-) TimerEvent: {}
+[14.267083] (-) TimerEvent: {}
+[14.367605] (-) TimerEvent: {}
+[14.468025] (-) TimerEvent: {}
+[14.568408] (-) TimerEvent: {}
+[14.674279] (-) TimerEvent: {}
+[14.781092] (-) TimerEvent: {}
+[14.886645] (-) TimerEvent: {}
+[14.987038] (-) TimerEvent: {}
+[15.087445] (-) TimerEvent: {}
+[15.190978] (-) TimerEvent: {}
+[15.291366] (-) TimerEvent: {}
+[15.396910] (-) TimerEvent: {}
+[15.497381] (-) TimerEvent: {}
+[15.610673] (-) TimerEvent: {}
+[15.712123] (-) TimerEvent: {}
+[15.815031] (-) TimerEvent: {}
+[15.915843] (-) TimerEvent: {}
+[16.018180] (-) TimerEvent: {}
+[16.122962] (-) TimerEvent: {}
+[16.230494] (-) TimerEvent: {}
+[16.323622] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[16.330672] (-) TimerEvent: {}
+[16.379589] (test_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interfaces/msg/detail/intfloat__type_support.c.o\x1b[0m\n'}
+[16.435329] (-) TimerEvent: {}
+[16.499324] (test_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[16.535538] (-) TimerEvent: {}
+[16.631356] (test_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interfaces/srv/detail/minus_three_ints__type_support.c.o\x1b[0m\n'}
+[16.636672] (-) TimerEvent: {}
+[16.741155] (-) TimerEvent: {}
+[16.753719] (test_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interfaces/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[16.842998] (-) TimerEvent: {}
+[16.928799] (test_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libtest_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.944327] (-) TimerEvent: {}
+[17.045558] (-) TimerEvent: {}
+[17.063256] (test_interfaces) StdoutLine: {'line': b'[ 21%] Built target test_interfaces__rosidl_typesupport_introspection_c\n'}
+[17.100746] (test_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.145810] (-) TimerEvent: {}
+[17.249248] (-) TimerEvent: {}
+[17.351098] (-) TimerEvent: {}
+[17.452104] (-) TimerEvent: {}
+[17.553716] (-) TimerEvent: {}
+[17.658987] (-) TimerEvent: {}
+[17.759418] (-) TimerEvent: {}
+[17.863000] (-) TimerEvent: {}
+[17.963436] (-) TimerEvent: {}
+[18.065371] (-) TimerEvent: {}
+[18.165921] (-) TimerEvent: {}
+[18.268519] (-) TimerEvent: {}
+[18.372550] (-) TimerEvent: {}
+[18.476734] (-) TimerEvent: {}
+[18.577192] (-) TimerEvent: {}
+[18.677641] (-) TimerEvent: {}
+[18.778265] (-) TimerEvent: {}
+[18.878770] (-) TimerEvent: {}
+[18.982092] (-) TimerEvent: {}
+[19.082632] (-) TimerEvent: {}
+[19.183020] (-) TimerEvent: {}
+[19.286951] (-) TimerEvent: {}
+[19.294207] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[19.347169] (test_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interfaces/msg/intfloat__type_support.cpp.o\x1b[0m\n'}
+[19.387119] (-) TimerEvent: {}
+[19.487522] (-) TimerEvent: {}
+[19.567273] (test_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.587686] (-) TimerEvent: {}
+[19.687958] (test_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interfaces/srv/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[19.688265] (-) TimerEvent: {}
+[19.791133] (-) TimerEvent: {}
+[19.804795] (test_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[19.891299] (-) TimerEvent: {}
+[19.983930] (test_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libtest_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.995804] (-) TimerEvent: {}
+[20.098798] (-) TimerEvent: {}
+[20.199910] (-) TimerEvent: {}
+[20.201318] (test_interfaces) StdoutLine: {'line': b'[ 32%] Built target test_interfaces__rosidl_typesupport_c\n'}
+[20.248110] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__cpp\x1b[0m\n'}
+[20.300235] (-) TimerEvent: {}
+[20.319240] (test_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[20.400852] (-) TimerEvent: {}
+[20.501619] (-) TimerEvent: {}
+[20.605121] (-) TimerEvent: {}
+[20.707148] (-) TimerEvent: {}
+[20.807631] (-) TimerEvent: {}
+[20.911460] (-) TimerEvent: {}
+[21.016329] (-) TimerEvent: {}
+[21.122975] (-) TimerEvent: {}
+[21.223368] (-) TimerEvent: {}
+[21.323784] (-) TimerEvent: {}
+[21.427218] (-) TimerEvent: {}
+[21.527658] (-) TimerEvent: {}
+[21.628057] (-) TimerEvent: {}
+[21.732573] (-) TimerEvent: {}
+[21.833531] (-) TimerEvent: {}
+[21.935112] (-) TimerEvent: {}
+[22.035430] (-) TimerEvent: {}
+[22.142723] (-) TimerEvent: {}
+[22.243839] (-) TimerEvent: {}
+[22.347129] (-) TimerEvent: {}
+[22.450418] (-) TimerEvent: {}
+[22.553823] (-) TimerEvent: {}
+[22.658991] (-) TimerEvent: {}
+[22.762993] (-) TimerEvent: {}
+[22.869171] (-) TimerEvent: {}
+[22.973346] (-) TimerEvent: {}
+[23.075369] (-) TimerEvent: {}
+[23.176170] (-) TimerEvent: {}
+[23.278996] (-) TimerEvent: {}
+[23.379562] (-) TimerEvent: {}
+[23.479984] (-) TimerEvent: {}
+[23.547500] (test_interfaces) StdoutLine: {'line': b'[ 34%] Built target test_interfaces__cpp\n'}
+[23.582314] (-) TimerEvent: {}
+[23.583424] (test_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[23.685684] (-) TimerEvent: {}
+[23.786204] (-) TimerEvent: {}
+[23.888513] (-) TimerEvent: {}
+[23.991035] (-) TimerEvent: {}
+[24.091515] (-) TimerEvent: {}
+[24.191845] (-) TimerEvent: {}
+[24.293833] (-) TimerEvent: {}
+[24.394382] (-) TimerEvent: {}
+[24.495211] (-) TimerEvent: {}
+[24.595774] (-) TimerEvent: {}
+[24.696229] (-) TimerEvent: {}
+[24.803017] (-) TimerEvent: {}
+[24.907025] (-) TimerEvent: {}
+[25.008497] (-) TimerEvent: {}
+[25.111382] (-) TimerEvent: {}
+[25.211945] (-) TimerEvent: {}
+[25.317439] (-) TimerEvent: {}
+[25.418309] (-) TimerEvent: {}
+[25.524168] (-) TimerEvent: {}
+[25.634994] (-) TimerEvent: {}
+[25.735416] (-) TimerEvent: {}
+[25.842986] (-) TimerEvent: {}
+[25.943412] (-) TimerEvent: {}
+[26.046913] (-) TimerEvent: {}
+[26.150498] (-) TimerEvent: {}
+[26.251331] (-) TimerEvent: {}
+[26.257790] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[26.351520] (-) TimerEvent: {}
+[26.393573] (test_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interfaces/msg/detail/intfloat__type_support.cpp.o\x1b[0m\n'}
+[26.451805] (-) TimerEvent: {}
+[26.553823] (-) TimerEvent: {}
+[26.655185] (-) TimerEvent: {}
+[26.758956] (-) TimerEvent: {}
+[26.859677] (-) TimerEvent: {}
+[26.966798] (-) TimerEvent: {}
+[27.067274] (-) TimerEvent: {}
+[27.167879] (-) TimerEvent: {}
+[27.274974] (-) TimerEvent: {}
+[27.378989] (-) TimerEvent: {}
+[27.480454] (-) TimerEvent: {}
+[27.550174] (test_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[27.582955] (-) TimerEvent: {}
+[27.683393] (-) TimerEvent: {}
+[27.786490] (-) TimerEvent: {}
+[27.888363] (-) TimerEvent: {}
+[27.991549] (-) TimerEvent: {}
+[28.092200] (-) TimerEvent: {}
+[28.198887] (-) TimerEvent: {}
+[28.299356] (-) TimerEvent: {}
+[28.403908] (-) TimerEvent: {}
+[28.504466] (-) TimerEvent: {}
+[28.610999] (-) TimerEvent: {}
+[28.714211] (-) TimerEvent: {}
+[28.715219] (test_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interfaces/srv/detail/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[28.815136] (-) TimerEvent: {}
+[28.918361] (-) TimerEvent: {}
+[29.018974] (-) TimerEvent: {}
+[29.123328] (-) TimerEvent: {}
+[29.226979] (-) TimerEvent: {}
+[29.331005] (-) TimerEvent: {}
+[29.433590] (-) TimerEvent: {}
+[29.534273] (-) TimerEvent: {}
+[29.638411] (-) TimerEvent: {}
+[29.738967] (-) TimerEvent: {}
+[29.823280] (test_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interfaces/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[29.839108] (-) TimerEvent: {}
+[29.939586] (-) TimerEvent: {}
+[30.046376] (-) TimerEvent: {}
+[30.154985] (-) TimerEvent: {}
+[30.255447] (-) TimerEvent: {}
+[30.356168] (-) TimerEvent: {}
+[30.459634] (-) TimerEvent: {}
+[30.563041] (-) TimerEvent: {}
+[30.666980] (-) TimerEvent: {}
+[30.774962] (-) TimerEvent: {}
+[30.878968] (-) TimerEvent: {}
+[30.982210] (-) TimerEvent: {}
+[31.083383] (-) TimerEvent: {}
+[31.183831] (-) TimerEvent: {}
+[31.286952] (-) TimerEvent: {}
+[31.387447] (-) TimerEvent: {}
+[31.459714] (test_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libtest_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[31.491023] (-) TimerEvent: {}
+[31.598962] (-) TimerEvent: {}
+[31.702991] (-) TimerEvent: {}
+[31.755954] (test_interfaces) StdoutLine: {'line': b'[ 45%] Built target test_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[31.800902] (test_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[31.807165] (-) TimerEvent: {}
+[31.911034] (-) TimerEvent: {}
+[32.013630] (-) TimerEvent: {}
+[32.118505] (-) TimerEvent: {}
+[32.219005] (-) TimerEvent: {}
+[32.320959] (-) TimerEvent: {}
+[32.421373] (-) TimerEvent: {}
+[32.527214] (-) TimerEvent: {}
+[32.630152] (-) TimerEvent: {}
+[32.735185] (-) TimerEvent: {}
+[32.835604] (-) TimerEvent: {}
+[32.947097] (-) TimerEvent: {}
+[33.055263] (-) TimerEvent: {}
+[33.155793] (-) TimerEvent: {}
+[33.256351] (-) TimerEvent: {}
+[33.357769] (-) TimerEvent: {}
+[33.458138] (-) TimerEvent: {}
+[33.563016] (-) TimerEvent: {}
+[33.666986] (-) TimerEvent: {}
+[33.771028] (-) TimerEvent: {}
+[33.871472] (-) TimerEvent: {}
+[33.982111] (-) TimerEvent: {}
+[34.082630] (-) TimerEvent: {}
+[34.186981] (-) TimerEvent: {}
+[34.287416] (-) TimerEvent: {}
+[34.391072] (-) TimerEvent: {}
+[34.494979] (-) TimerEvent: {}
+[34.595427] (-) TimerEvent: {}
+[34.698983] (-) TimerEvent: {}
+[34.802993] (-) TimerEvent: {}
+[34.903622] (-) TimerEvent: {}
+[35.006291] (-) TimerEvent: {}
+[35.106769] (-) TimerEvent: {}
+[35.207405] (-) TimerEvent: {}
+[35.210339] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[35.279249] (test_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interfaces/msg/detail/dds_fastrtps/intfloat__type_support.cpp.o\x1b[0m\n'}
+[35.310984] (-) TimerEvent: {}
+[35.411410] (-) TimerEvent: {}
+[35.511809] (-) TimerEvent: {}
+[35.615141] (-) TimerEvent: {}
+[35.715572] (-) TimerEvent: {}
+[35.816096] (-) TimerEvent: {}
+[35.923146] (-) TimerEvent: {}
+[36.027335] (-) TimerEvent: {}
+[36.130786] (-) TimerEvent: {}
+[36.232831] (-) TimerEvent: {}
+[36.336419] (-) TimerEvent: {}
+[36.437190] (-) TimerEvent: {}
+[36.544827] (-) TimerEvent: {}
+[36.646949] (-) TimerEvent: {}
+[36.751417] (-) TimerEvent: {}
+[36.858992] (-) TimerEvent: {}
+[36.960844] (-) TimerEvent: {}
+[37.034412] (test_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[37.060965] (-) TimerEvent: {}
+[37.161383] (-) TimerEvent: {}
+[37.261908] (-) TimerEvent: {}
+[37.362377] (-) TimerEvent: {}
+[37.470955] (-) TimerEvent: {}
+[37.571385] (-) TimerEvent: {}
+[37.678947] (-) TimerEvent: {}
+[37.779409] (-) TimerEvent: {}
+[37.891080] (-) TimerEvent: {}
+[37.991498] (-) TimerEvent: {}
+[38.091960] (-) TimerEvent: {}
+[38.192391] (-) TimerEvent: {}
+[38.299005] (-) TimerEvent: {}
+[38.399426] (-) TimerEvent: {}
+[38.499962] (-) TimerEvent: {}
+[38.611048] (-) TimerEvent: {}
+[38.670963] (test_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interfaces/srv/detail/dds_fastrtps/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[38.711184] (-) TimerEvent: {}
+[38.814994] (-) TimerEvent: {}
+[38.915393] (-) TimerEvent: {}
+[39.016449] (-) TimerEvent: {}
+[39.130781] (-) TimerEvent: {}
+[39.231231] (-) TimerEvent: {}
+[39.331666] (-) TimerEvent: {}
+[39.432224] (-) TimerEvent: {}
+[39.539300] (-) TimerEvent: {}
+[39.639929] (-) TimerEvent: {}
+[39.750972] (-) TimerEvent: {}
+[39.863019] (-) TimerEvent: {}
+[39.968884] (-) TimerEvent: {}
+[40.075177] (-) TimerEvent: {}
+[40.179019] (-) TimerEvent: {}
+[40.282977] (-) TimerEvent: {}
+[40.369601] (test_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[40.386429] (-) TimerEvent: {}
+[40.490197] (-) TimerEvent: {}
+[40.595035] (-) TimerEvent: {}
+[40.704950] (-) TimerEvent: {}
+[40.807147] (-) TimerEvent: {}
+[40.907723] (-) TimerEvent: {}
+[41.011428] (-) TimerEvent: {}
+[41.114963] (-) TimerEvent: {}
+[41.218385] (-) TimerEvent: {}
+[41.323018] (-) TimerEvent: {}
+[41.425585] (-) TimerEvent: {}
+[41.526135] (-) TimerEvent: {}
+[41.628814] (-) TimerEvent: {}
+[41.730992] (-) TimerEvent: {}
+[41.834999] (-) TimerEvent: {}
+[41.939017] (-) TimerEvent: {}
+[42.042987] (-) TimerEvent: {}
+[42.143455] (-) TimerEvent: {}
+[42.247014] (-) TimerEvent: {}
+[42.347409] (-) TimerEvent: {}
+[42.451158] (-) TimerEvent: {}
+[42.478378] (test_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libtest_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[42.551292] (-) TimerEvent: {}
+[42.651796] (-) TimerEvent: {}
+[42.758965] (-) TimerEvent: {}
+[42.835662] (test_interfaces) StdoutLine: {'line': b'[ 56%] Built target test_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[42.862988] (-) TimerEvent: {}
+[42.875116] (test_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[42.967143] (-) TimerEvent: {}
+[43.067654] (-) TimerEvent: {}
+[43.170770] (-) TimerEvent: {}
+[43.275026] (-) TimerEvent: {}
+[43.378959] (-) TimerEvent: {}
+[43.479475] (-) TimerEvent: {}
+[43.582951] (-) TimerEvent: {}
+[43.686970] (-) TimerEvent: {}
+[43.787429] (-) TimerEvent: {}
+[43.888400] (-) TimerEvent: {}
+[43.998150] (-) TimerEvent: {}
+[44.099913] (-) TimerEvent: {}
+[44.207163] (-) TimerEvent: {}
+[44.310984] (-) TimerEvent: {}
+[44.414991] (-) TimerEvent: {}
+[44.517299] (-) TimerEvent: {}
+[44.617744] (-) TimerEvent: {}
+[44.731089] (-) TimerEvent: {}
+[44.831547] (-) TimerEvent: {}
+[44.931940] (-) TimerEvent: {}
+[45.056214] (-) TimerEvent: {}
+[45.167167] (-) TimerEvent: {}
+[45.270961] (-) TimerEvent: {}
+[45.371366] (-) TimerEvent: {}
+[45.471848] (-) TimerEvent: {}
+[45.574972] (-) TimerEvent: {}
+[45.676995] (-) TimerEvent: {}
+[45.781760] (-) TimerEvent: {}
+[45.870579] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[45.881908] (-) TimerEvent: {}
+[45.948193] (test_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interfaces/msg/detail/intfloat__type_support_c.cpp.o\x1b[0m\n'}
+[45.987036] (-) TimerEvent: {}
+[46.087492] (-) TimerEvent: {}
+[46.191309] (-) TimerEvent: {}
+[46.294994] (-) TimerEvent: {}
+[46.395379] (-) TimerEvent: {}
+[46.497906] (-) TimerEvent: {}
+[46.599195] (-) TimerEvent: {}
+[46.700435] (-) TimerEvent: {}
+[46.802983] (-) TimerEvent: {}
+[46.907067] (-) TimerEvent: {}
+[47.011247] (-) TimerEvent: {}
+[47.114959] (-) TimerEvent: {}
+[47.215365] (-) TimerEvent: {}
+[47.259073] (test_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[47.318610] (-) TimerEvent: {}
+[47.419139] (-) TimerEvent: {}
+[47.523608] (-) TimerEvent: {}
+[47.624066] (-) TimerEvent: {}
+[47.730994] (-) TimerEvent: {}
+[47.835032] (-) TimerEvent: {}
+[47.939007] (-) TimerEvent: {}
+[48.042003] (-) TimerEvent: {}
+[48.146581] (-) TimerEvent: {}
+[48.249372] (-) TimerEvent: {}
+[48.350034] (-) TimerEvent: {}
+[48.453734] (-) TimerEvent: {}
+[48.554750] (-) TimerEvent: {}
+[48.655678] (-) TimerEvent: {}
+[48.759013] (-) TimerEvent: {}
+[48.762301] (test_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interfaces/srv/detail/minus_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[48.862970] (-) TimerEvent: {}
+[48.968282] (-) TimerEvent: {}
+[49.070978] (-) TimerEvent: {}
+[49.174968] (-) TimerEvent: {}
+[49.275391] (-) TimerEvent: {}
+[49.382968] (-) TimerEvent: {}
+[49.503014] (-) TimerEvent: {}
+[49.606985] (-) TimerEvent: {}
+[49.711572] (-) TimerEvent: {}
+[49.811996] (-) TimerEvent: {}
+[49.914984] (-) TimerEvent: {}
+[50.017235] (-) TimerEvent: {}
+[50.118695] (-) TimerEvent: {}
+[50.221013] (-) TimerEvent: {}
+[50.233667] (test_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interfaces/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[50.321164] (-) TimerEvent: {}
+[50.428861] (-) TimerEvent: {}
+[50.533678] (-) TimerEvent: {}
+[50.634972] (-) TimerEvent: {}
+[50.735380] (-) TimerEvent: {}
+[50.835914] (-) TimerEvent: {}
+[50.940617] (-) TimerEvent: {}
+[51.042976] (-) TimerEvent: {}
+[51.143460] (-) TimerEvent: {}
+[51.247000] (-) TimerEvent: {}
+[51.347350] (-) TimerEvent: {}
+[51.450959] (-) TimerEvent: {}
+[51.554387] (-) TimerEvent: {}
+[51.658185] (-) TimerEvent: {}
+[51.759438] (-) TimerEvent: {}
+[51.771253] (test_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libtest_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[51.859695] (-) TimerEvent: {}
+[51.963192] (-) TimerEvent: {}
+[52.065799] (-) TimerEvent: {}
+[52.171012] (-) TimerEvent: {}
+[52.182249] (test_interfaces) StdoutLine: {'line': b'[ 67%] Built target test_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[52.217481] (test_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[52.272558] (-) TimerEvent: {}
+[52.373016] (-) TimerEvent: {}
+[52.475522] (-) TimerEvent: {}
+[52.582066] (-) TimerEvent: {}
+[52.684030] (-) TimerEvent: {}
+[52.791012] (-) TimerEvent: {}
+[52.892541] (-) TimerEvent: {}
+[52.993002] (-) TimerEvent: {}
+[53.096325] (-) TimerEvent: {}
+[53.196892] (-) TimerEvent: {}
+[53.297802] (-) TimerEvent: {}
+[53.398178] (-) TimerEvent: {}
+[53.501947] (-) TimerEvent: {}
+[53.602366] (-) TimerEvent: {}
+[53.703311] (-) TimerEvent: {}
+[53.803705] (-) TimerEvent: {}
+[53.909403] (-) TimerEvent: {}
+[54.011233] (-) TimerEvent: {}
+[54.112685] (-) TimerEvent: {}
+[54.213927] (-) TimerEvent: {}
+[54.271255] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[54.314077] (-) TimerEvent: {}
+[54.322949] (test_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interfaces/msg/intfloat__type_support.cpp.o\x1b[0m\n'}
+[54.415050] (-) TimerEvent: {}
+[54.518854] (-) TimerEvent: {}
+[54.621496] (-) TimerEvent: {}
+[54.722104] (-) TimerEvent: {}
+[54.827276] (-) TimerEvent: {}
+[54.928165] (-) TimerEvent: {}
+[55.028623] (-) TimerEvent: {}
+[55.139014] (-) TimerEvent: {}
+[55.246965] (-) TimerEvent: {}
+[55.355080] (-) TimerEvent: {}
+[55.455528] (-) TimerEvent: {}
+[55.455800] (test_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[55.558982] (-) TimerEvent: {}
+[55.659390] (-) TimerEvent: {}
+[55.763602] (-) TimerEvent: {}
+[55.864081] (-) TimerEvent: {}
+[55.973806] (-) TimerEvent: {}
+[56.079029] (-) TimerEvent: {}
+[56.179440] (-) TimerEvent: {}
+[56.279879] (-) TimerEvent: {}
+[56.382328] (-) TimerEvent: {}
+[56.483359] (-) TimerEvent: {}
+[56.527245] (test_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interfaces/srv/minus_three_ints__type_support.cpp.o\x1b[0m\n'}
+[56.583491] (-) TimerEvent: {}
+[56.684558] (-) TimerEvent: {}
+[56.786007] (-) TimerEvent: {}
+[56.886481] (-) TimerEvent: {}
+[56.994095] (-) TimerEvent: {}
+[57.098982] (-) TimerEvent: {}
+[57.203203] (-) TimerEvent: {}
+[57.303653] (-) TimerEvent: {}
+[57.407233] (-) TimerEvent: {}
+[57.510995] (-) TimerEvent: {}
+[57.611260] (test_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/test_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interfaces/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[57.611515] (-) TimerEvent: {}
+[57.711818] (-) TimerEvent: {}
+[57.812241] (-) TimerEvent: {}
+[57.915840] (-) TimerEvent: {}
+[58.017111] (-) TimerEvent: {}
+[58.117610] (-) TimerEvent: {}
+[58.227006] (-) TimerEvent: {}
+[58.330973] (-) TimerEvent: {}
+[58.431391] (-) TimerEvent: {}
+[58.531900] (-) TimerEvent: {}
+[58.632341] (-) TimerEvent: {}
+[58.734970] (-) TimerEvent: {}
+[58.824980] (test_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtest_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[58.836077] (-) TimerEvent: {}
+[58.939220] (-) TimerEvent: {}
+[58.979430] (test_interfaces) StdoutLine: {'line': b'[ 78%] Built target test_interfaces__rosidl_typesupport_cpp\n'}
+[59.041049] (-) TimerEvent: {}
+[59.049460] (test_interfaces) StdoutLine: {'line': b'[ 78%] Built target test_interfaces\n'}
+[59.088312] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__py\x1b[0m\n'}
+[59.123109] (test_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[59.142323] (-) TimerEvent: {}
+[59.246960] (-) TimerEvent: {}
+[59.350863] (-) TimerEvent: {}
+[59.455016] (-) TimerEvent: {}
+[59.555420] (-) TimerEvent: {}
+[59.658971] (-) TimerEvent: {}
+[59.759393] (-) TimerEvent: {}
+[59.863004] (-) TimerEvent: {}
+[59.963375] (-) TimerEvent: {}
+[60.063873] (-) TimerEvent: {}
+[60.167250] (-) TimerEvent: {}
+[60.271181] (-) TimerEvent: {}
+[60.371593] (-) TimerEvent: {}
+[60.471980] (-) TimerEvent: {}
+[60.574980] (-) TimerEvent: {}
+[60.675452] (-) TimerEvent: {}
+[60.781715] (-) TimerEvent: {}
+[60.885534] (-) TimerEvent: {}
+[60.991018] (-) TimerEvent: {}
+[61.095378] (-) TimerEvent: {}
+[61.196991] (-) TimerEvent: {}
+[61.297477] (-) TimerEvent: {}
+[61.398075] (-) TimerEvent: {}
+[61.499833] (-) TimerEvent: {}
+[61.605780] (-) TimerEvent: {}
+[61.706284] (-) TimerEvent: {}
+[61.807009] (-) TimerEvent: {}
+[61.907484] (-) TimerEvent: {}
+[62.011001] (-) TimerEvent: {}
+[62.114083] (-) TimerEvent: {}
+[62.217700] (-) TimerEvent: {}
+[62.318972] (-) TimerEvent: {}
+[62.419386] (-) TimerEvent: {}
+[62.523179] (-) TimerEvent: {}
+[62.623684] (-) TimerEvent: {}
+[62.724946] (-) TimerEvent: {}
+[62.828191] (-) TimerEvent: {}
+[62.928575] (-) TimerEvent: {}
+[63.032965] (-) TimerEvent: {}
+[63.135025] (-) TimerEvent: {}
+[63.235534] (-) TimerEvent: {}
+[63.343189] (-) TimerEvent: {}
+[63.443604] (-) TimerEvent: {}
+[63.547099] (-) TimerEvent: {}
+[63.647570] (-) TimerEvent: {}
+[63.748052] (-) TimerEvent: {}
+[63.851167] (-) TimerEvent: {}
+[63.953915] (-) TimerEvent: {}
+[64.058969] (-) TimerEvent: {}
+[64.159351] (-) TimerEvent: {}
+[64.263284] (-) TimerEvent: {}
+[64.363710] (-) TimerEvent: {}
+[64.464820] (-) TimerEvent: {}
+[64.565301] (-) TimerEvent: {}
+[64.671006] (-) TimerEvent: {}
+[64.774975] (-) TimerEvent: {}
+[64.875897] (-) TimerEvent: {}
+[64.978682] (-) TimerEvent: {}
+[65.079191] (-) TimerEvent: {}
+[65.179579] (-) TimerEvent: {}
+[65.279946] (-) TimerEvent: {}
+[65.382969] (-) TimerEvent: {}
+[65.484839] (-) TimerEvent: {}
+[65.586974] (-) TimerEvent: {}
+[65.691160] (-) TimerEvent: {}
+[65.795149] (-) TimerEvent: {}
+[65.897647] (-) TimerEvent: {}
+[65.998093] (-) TimerEvent: {}
+[66.098516] (-) TimerEvent: {}
+[66.202487] (-) TimerEvent: {}
+[66.303097] (-) TimerEvent: {}
+[66.381790] (test_interfaces) StdoutLine: {'line': b'[ 80%] Built target test_interfaces__py\n'}
+[66.403262] (-) TimerEvent: {}
+[66.424395] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__python\x1b[0m\n'}
+[66.501130] (test_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__python.dir/rosidl_generator_py/test_interfaces/msg/_intfloat_s.c.o\x1b[0m\n'}
+[66.506566] (-) TimerEvent: {}
+[66.607152] (-) TimerEvent: {}
+[66.707594] (-) TimerEvent: {}
+[66.810118] (-) TimerEvent: {}
+[66.889910] (test_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__python.dir/rosidl_generator_py/test_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[66.910284] (-) TimerEvent: {}
+[67.015217] (-) TimerEvent: {}
+[67.119073] (-) TimerEvent: {}
+[67.222584] (-) TimerEvent: {}
+[67.251557] (test_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__python.dir/rosidl_generator_py/test_interfaces/srv/_minus_three_ints_s.c.o\x1b[0m\n'}
+[67.323619] (-) TimerEvent: {}
+[67.424059] (-) TimerEvent: {}
+[67.524601] (-) TimerEvent: {}
+[67.611114] (test_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__python.dir/rosidl_generator_py/test_interfaces/action/_fibonacci_s.c.o\x1b[0m\n'}
+[67.624750] (-) TimerEvent: {}
+[67.725168] (-) TimerEvent: {}
+[67.825578] (-) TimerEvent: {}
+[67.925997] (-) TimerEvent: {}
+[68.028634] (-) TimerEvent: {}
+[68.129695] (-) TimerEvent: {}
+[68.178969] (test_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_interfaces/libtest_interfaces__python.so\x1b[0m\n'}
+[68.231055] (-) TimerEvent: {}
+[68.331587] (-) TimerEvent: {}
+[68.349740] (test_interfaces) StdoutLine: {'line': b'[ 89%] Built target test_interfaces__python\n'}
+[68.391329] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[68.443002] (-) TimerEvent: {}
+[68.463301] (test_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[68.544220] (-) TimerEvent: {}
+[68.645033] (-) TimerEvent: {}
+[68.751096] (-) TimerEvent: {}
+[68.851605] (-) TimerEvent: {}
+[68.951063] (test_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[68.951728] (-) TimerEvent: {}
+[69.058985] (-) TimerEvent: {}
+[69.099140] (test_interfaces) StdoutLine: {'line': b'[ 92%] Built target test_interfaces__rosidl_typesupport_c__pyext\n'}
+[69.160895] (-) TimerEvent: {}
+[69.171207] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[69.226604] (test_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[69.261163] (-) TimerEvent: {}
+[69.361588] (-) TimerEvent: {}
+[69.464695] (-) TimerEvent: {}
+[69.567653] (-) TimerEvent: {}
+[69.668081] (-) TimerEvent: {}
+[69.731521] (test_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[69.768253] (-) TimerEvent: {}
+[69.870273] (-) TimerEvent: {}
+[69.874110] (test_interfaces) StdoutLine: {'line': b'[ 96%] Built target test_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[69.917726] (test_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[69.976343] (-) TimerEvent: {}
+[69.981326] (test_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/test_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_interfaces/_test_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[70.076669] (-) TimerEvent: {}
+[70.177154] (-) TimerEvent: {}
+[70.278974] (-) TimerEvent: {}
+[70.381483] (-) TimerEvent: {}
+[70.487092] (-) TimerEvent: {}
+[70.548427] (test_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[70.588429] (-) TimerEvent: {}
+[70.691015] (-) TimerEvent: {}
+[70.791460] (-) TimerEvent: {}
+[70.866507] (test_interfaces) StdoutLine: {'line': b'[100%] Built target test_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[70.894958] (-) TimerEvent: {}
+[70.916249] (test_interfaces) CommandEnded: {'returncode': 0}
+[70.995374] (-) TimerEvent: {}
+[71.095968] (-) TimerEvent: {}
+[71.196363] (-) TimerEvent: {}
+[71.298983] (-) TimerEvent: {}
+[71.354310] (test_interfaces) JobProgress: {'identifier': 'test_interfaces', 'progress': 'install'}
+[71.395033] (test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/psh/ros_code/build/test_interfaces'], 'cwd': '/home/psh/ros_code/build/test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'psh'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1153'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/psh'), ('OLDPWD', '/home/psh/ros_code'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '85905'), ('_colcon_cd_root', '/home/psh/ros_code'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/psh/ros_code/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'psh'), ('JOURNAL_STREAM', '8:29414'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'psh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192'), ('INVOCATION_ID', '31d50477d1b34929a996356eb769214a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/psh/ros_code/build/test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[71.404462] (-) TimerEvent: {}
+[71.436179] (test_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[71.441594] (test_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[71.442586] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/rosidl_interfaces/test_interfaces\n'}
+[71.445939] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__functions.h\n'}
+[71.479882] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__struct.h\n'}
+[71.507805] (-) TimerEvent: {}
+[71.512793] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__type_support.h\n'}
+[71.547132] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/fibonacci.h\n'}
+[71.573573] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__functions.h\n'}
+[71.574396] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.h\n'}
+[71.581233] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__type_support.h\n'}
+[71.581978] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.h\n'}
+[71.582467] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[71.583083] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.h\n'}
+[71.583575] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[71.584128] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[71.584601] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[71.585161] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__functions.h\n'}
+[71.585627] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.h\n'}
+[71.586279] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__type_support.h\n'}
+[71.590206] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.h\n'}
+[71.591264] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.sh\n'}
+[71.592009] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/library_path.dsv\n'}
+[71.595410] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[71.608404] (-) TimerEvent: {}
+[71.631454] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h\n'}
+[71.641693] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[71.641852] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[71.641975] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[71.642088] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[71.642200] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.674478] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.678188] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[71.678984] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.679631] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[71.683403] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[71.684885] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[71.708569] (-) TimerEvent: {}
+[71.720913] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_c.h\n'}
+[71.723581] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[71.725750] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[71.730638] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[71.757197] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__builder.hpp\n'}
+[71.795075] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__struct.hpp\n'}
+[71.809657] (-) TimerEvent: {}
+[71.828549] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__traits.hpp\n'}
+[71.863096] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/fibonacci.hpp\n'}
+[71.891697] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__builder.hpp\n'}
+[71.892363] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__struct.hpp\n'}
+[71.892877] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__traits.hpp\n'}
+[71.893400] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/intfloat.hpp\n'}
+[71.896406] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/add_three_ints.hpp\n'}
+[71.899107] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[71.899856] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[71.900903] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[71.902630] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__builder.hpp\n'}
+[71.906907] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__struct.hpp\n'}
+[71.907604] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__traits.hpp\n'}
+[71.909856] (-) TimerEvent: {}
+[71.910147] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/minus_three_ints.hpp\n'}
+[71.913906] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[71.945955] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[71.946687] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[71.948724] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/include/test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[71.951037] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.sh\n'}
+[71.953249] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/pythonpath.dsv\n'}
+[71.955400] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/__init__.py\n'}
+[71.959064] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/__init__.py\n'}
+[71.959834] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/msg/_intfloat.py\n'}
+[71.962679] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/__init__.py\n'}
+[71.966457] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_add_three_ints.py\n'}
+[71.967954] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/srv/_minus_three_ints.py\n'}
+[71.971670] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/action/__init__.py\n'}
+[71.999316] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/action/_fibonacci.py\n'}
+[72.011102] (-) TimerEvent: {}
+[72.031752] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[72.035140] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[72.038789] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[72.040040] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__python.so\n'}
+[72.043672] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.idl\n'}
+[72.044602] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.idl\n'}
+[72.045608] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.idl\n'}
+[72.047137] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/action/Fibonacci.idl\n'}
+[72.077149] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/msg/Intfloat.msg\n'}
+[72.078026] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts.srv\n'}
+[72.080654] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Request.msg\n'}
+[72.081616] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/AddThreeInts_Response.msg\n'}
+[72.082997] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts.srv\n'}
+[72.087115] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Request.msg\n'}
+[72.088042] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/srv/MinusThreeInts_Response.msg\n'}
+[72.088745] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/action/Fibonacci.action\n'}
+[72.114769] (-) TimerEvent: {}
+[72.121268] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/package_run_dependencies/test_interfaces\n'}
+[72.123876] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/parent_prefix_path/test_interfaces\n'}
+[72.131908] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.sh\n'}
+[72.133132] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/ament_prefix_path.dsv\n'}
+[72.133919] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.sh\n'}
+[72.134680] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/environment/path.dsv\n'}
+[72.135552] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.bash\n'}
+[72.136270] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.sh\n'}
+[72.138195] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.zsh\n'}
+[72.142124] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/local_setup.dsv\n'}
+[72.143185] (test_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.dsv\n'}
+[72.173085] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/ament_index/resource_index/packages/test_interfaces\n'}
+[72.173913] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[72.179169] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[72.180041] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[72.180811] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[72.181586] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[72.182323] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[72.182955] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[72.185693] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig.cmake\n'}
+[72.187055] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfacesConfig-version.cmake\n'}
+[72.189428] (test_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.xml\n'}
+[72.192120] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_c.so\n'}
+[72.194212] (test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_generator_c.so" to ""\n'}
+[72.196203] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[72.198390] (test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[72.201051] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_c.so\n'}
+[72.202040] (test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[72.207157] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[72.208439] (test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[72.208945] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_cpp.so\n'}
+[72.209695] (test_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/psh/ros_code/install/test_interfaces/lib/libtest_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[72.214939] (-) TimerEvent: {}
+[72.316539] (-) TimerEvent: {}
+[72.363425] (test_interfaces) StdoutLine: {'line': b"Compiling '/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages/test_interfaces/__init__.py'...\n"}
+[72.391818] (test_interfaces) StdoutLine: {'line': b'-- Old export file "/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[72.394261] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport.cmake\n'}
+[72.397059] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[72.398584] (test_interfaces) StdoutLine: {'line': b'-- Old export file "/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[72.399163] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[72.401517] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[72.403657] (test_interfaces) StdoutLine: {'line': b'-- Old export file "/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[72.407132] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[72.408500] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[72.410055] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_generator_cppExport.cmake\n'}
+[72.413127] (test_interfaces) StdoutLine: {'line': b'-- Old export file "/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[72.413674] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[72.416058] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[72.417881] (-) TimerEvent: {}
+[72.418911] (test_interfaces) StdoutLine: {'line': b'-- Old export file "/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[72.419934] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[72.423995] (test_interfaces) StdoutLine: {'line': b'-- Installing: /home/psh/ros_code/install/test_interfaces/share/test_interfaces/cmake/test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[72.446990] (test_interfaces) CommandEnded: {'returncode': 0}
+[72.518582] (-) TimerEvent: {}
+[72.619113] (-) TimerEvent: {}
+[72.725493] (-) TimerEvent: {}
+[72.827146] (-) TimerEvent: {}
+[72.939057] (-) TimerEvent: {}
+[73.036842] (test_interfaces) JobEnded: {'identifier': 'test_interfaces', 'rc': 0}
+[73.037878] (test_num) JobStarted: {'identifier': 'test_num'}
+[73.039077] (-) TimerEvent: {}
+[73.143657] (-) TimerEvent: {}
+[73.244208] (-) TimerEvent: {}
+[73.347143] (-) TimerEvent: {}
+[73.451202] (-) TimerEvent: {}
+[73.553782] (-) TimerEvent: {}
+[73.658976] (-) TimerEvent: {}
+[73.761458] (-) TimerEvent: {}
+[73.861900] (-) TimerEvent: {}
+[73.965622] (-) TimerEvent: {}
+[74.066032] (-) TimerEvent: {}
+[74.174974] (-) TimerEvent: {}
+[74.279261] (-) TimerEvent: {}
+[74.387094] (-) TimerEvent: {}
+[74.487740] (-) TimerEvent: {}
+[74.591053] (-) TimerEvent: {}
+[74.691489] (-) TimerEvent: {}
+[74.791875] (-) TimerEvent: {}
+[74.893542] (-) TimerEvent: {}
+[74.994982] (-) TimerEvent: {}
+[75.097604] (-) TimerEvent: {}
+[75.201332] (-) TimerEvent: {}
+[75.307419] (-) TimerEvent: {}
+[75.410256] (-) TimerEvent: {}
+[75.514018] (-) TimerEvent: {}
+[75.615873] (-) TimerEvent: {}
+[75.716537] (-) TimerEvent: {}
+[75.817996] (-) TimerEvent: {}
+[75.923305] (-) TimerEvent: {}
+[76.026979] (-) TimerEvent: {}
+[76.086671] (test_num) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psh/ros_code/build/test_num/build', '--no-deps', 'install_data'], 'cwd': '/home/psh/ros_code/build/test_num', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psh', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1153', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/psh/ros_code/install/test_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/psh', 'OLDPWD': '/home/psh/ros_code', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '85905', '_colcon_cd_root': '/home/psh/ros_code', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/psh/ros_code/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'psh', 'JOURNAL_STREAM': '8:29414', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'psh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/soonyang:@/tmp/.ICE-unix/1192,unix/soonyang:/tmp/.ICE-unix/1192', 'INVOCATION_ID': '31d50477d1b34929a996356eb769214a', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/test_interfaces:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7a2917df-a468-4d4e-8702-154f5e02067c', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/psh/ros_code/build/test_num', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/build/test_num:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages:/home/psh/ros_code/build/move_turtle_pkg:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:/home/psh/ros_code/build/m_pubsub:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/psh/ros_code/install/test_interfaces'}, 'shell': False}
+[76.136777] (-) TimerEvent: {}
+[76.238993] (-) TimerEvent: {}
+[76.343026] (-) TimerEvent: {}
+[76.446965] (-) TimerEvent: {}
+[76.547873] (-) TimerEvent: {}
+[76.653858] (-) TimerEvent: {}
+[76.755596] (-) TimerEvent: {}
+[76.861374] (-) TimerEvent: {}
+[76.964932] (-) TimerEvent: {}
+[77.065789] (-) TimerEvent: {}
+[77.119114] (test_num) StdoutLine: {'line': b'running develop\n'}
+[77.167245] (-) TimerEvent: {}
+[77.268543] (-) TimerEvent: {}
+[77.370192] (-) TimerEvent: {}
+[77.473818] (-) TimerEvent: {}
+[77.574239] (-) TimerEvent: {}
+[77.678994] (-) TimerEvent: {}
+[77.688780] (test_num) StdoutLine: {'line': b'running egg_info\n'}
+[77.693352] (test_num) StdoutLine: {'line': b'writing test_num.egg-info/PKG-INFO\n'}
+[77.694311] (test_num) StdoutLine: {'line': b'writing dependency_links to test_num.egg-info/dependency_links.txt\n'}
+[77.695025] (test_num) StdoutLine: {'line': b'writing entry points to test_num.egg-info/entry_points.txt\n'}
+[77.695582] (test_num) StdoutLine: {'line': b'writing requirements to test_num.egg-info/requires.txt\n'}
+[77.696069] (test_num) StdoutLine: {'line': b'writing top-level names to test_num.egg-info/top_level.txt\n'}
+[77.779145] (-) TimerEvent: {}
+[77.863769] (test_num) StdoutLine: {'line': b"reading manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[77.867506] (test_num) StdoutLine: {'line': b"writing manifest file 'test_num.egg-info/SOURCES.txt'\n"}
+[77.879678] (-) TimerEvent: {}
+[77.980603] (-) TimerEvent: {}
+[78.055139] (test_num) StdoutLine: {'line': b'running build_ext\n'}
+[78.056288] (test_num) StdoutLine: {'line': b'Creating /home/psh/ros_code/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)\n'}
+[78.060376] (test_num) StdoutLine: {'line': b'Installing fac script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[78.060953] (test_num) StdoutLine: {'line': b'Installing fas script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[78.063378] (test_num) StdoutLine: {'line': b'Installing msc script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[78.063921] (test_num) StdoutLine: {'line': b'Installing mss1 script to /home/psh/ros_code/install/test_num/lib/test_num\n'}
+[78.065962] (test_num) StdoutLine: {'line': b'\n'}
+[78.067093] (test_num) StdoutLine: {'line': b'Installed /home/psh/ros_code/build/test_num\n'}
+[78.071106] (test_num) StdoutLine: {'line': b'running install_data\n'}
+[78.080788] (-) TimerEvent: {}
+[78.181272] (-) TimerEvent: {}
+[78.204092] (test_num) CommandEnded: {'returncode': 0}
+[78.281561] (-) TimerEvent: {}
+[78.289776] (test_num) JobEnded: {'identifier': 'test_num', 'rc': 0}
+[78.294755] (-) EventReactorShutdown: {}

@@ -1,0 +1,375 @@
+[0.506s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.506s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcd8a265910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcd8a265910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcd8a265e80>)
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.582s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/psh/ros_code'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(backup) by extension 'python_setup_py'
+[1.737s] ERROR:colcon.colcon_core.package_identification:Exception in package identification extension 'python_setup_py' in 'backup': Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/__init__.py", line 142, in _identify
+    retval = extension.identify(_reused_descriptor_instance)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 48, in identify
+    config = get_setup_information(setup_py)
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information
+    _setup_information_cache[hashable_env] = _get_setup_information(
+  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information
+    result = subprocess.run(
+  File "/usr/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+
+[1.738s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.739s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.740s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extension 'ignore'
+[1.741s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extension 'ignore_ament_install'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extensions ['colcon_pkg']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extension 'colcon_pkg'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extensions ['colcon_meta']
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extension 'colcon_meta'
+[1.742s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extensions ['ros']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(move_turtle_pkg) by extension 'ros'
+[1.760s] DEBUG:colcon.colcon_core.package_identification:Package 'move_turtle_pkg' with type 'ros.ament_python' and name 'move_turtle_pkg'
+[1.768s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['ignore', 'ignore_ament_install']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ignore'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ignore_ament_install'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['colcon_pkg']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'colcon_pkg'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['colcon_meta']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'colcon_meta'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['ros']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'ros'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['cmake', 'python']
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'cmake'
+[1.769s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'python'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extensions ['python_setup_py']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test) by extension 'python_setup_py'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['ignore', 'ignore_ament_install']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'ignore'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'ignore_ament_install'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['colcon_pkg']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'colcon_pkg'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['colcon_meta']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'colcon_meta'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['ros']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'ros'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['cmake', 'python']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'cmake'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'python'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extensions ['python_setup_py']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(opencv_test/img) by extension 'python_setup_py'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ignore'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ignore_ament_install'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['colcon_pkg']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'colcon_pkg'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['colcon_meta']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'colcon_meta'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extensions ['ros']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/m_pubsub) by extension 'ros'
+[1.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m_pubsub' with type 'ros.ament_python' and name 'm_pubsub'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extension 'ignore'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extension 'ignore_ament_install'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extensions ['colcon_pkg']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extension 'colcon_pkg'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extensions ['colcon_meta']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extension 'colcon_meta'
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extensions ['ros']
+[1.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interfaces) by extension 'ros'
+[1.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_interfaces' with type 'ros.ament_cmake' and name 'test_interfaces'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extension 'ignore_ament_install'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extensions ['colcon_pkg']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extension 'colcon_pkg'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extensions ['colcon_meta']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extension 'colcon_meta'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extensions ['ros']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(test_num) by extension 'ros'
+[1.799s] DEBUG:colcon.colcon_core.package_identification:Package 'test_num' with type 'ros.ament_python' and name 'test_num'
+[1.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.914s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/psh/ros_code/install
+[1.927s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[1.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_args' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_target' from command line to 'None'
+[2.121s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.122s] Level 5:colcon.colcon_core.verb:set package 'm_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.123s] DEBUG:colcon.colcon_core.verb:Building package 'm_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psh/ros_code/build/m_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psh/ros_code/install/m_pubsub', 'merge_install': False, 'path': '/home/psh/ros_code/src/m_pubsub', 'symlink_install': True, 'test_result_base': None}
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_args' from command line to 'None'
+[2.126s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_target' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.127s] Level 5:colcon.colcon_core.verb:set package 'move_turtle_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.127s] DEBUG:colcon.colcon_core.verb:Building package 'move_turtle_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psh/ros_code/build/move_turtle_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psh/ros_code/install/move_turtle_pkg', 'merge_install': False, 'path': '/home/psh/ros_code/move_turtle_pkg', 'symlink_install': True, 'test_result_base': None}
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.131s] Level 5:colcon.colcon_core.verb:set package 'test_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.131s] DEBUG:colcon.colcon_core.verb:Building package 'test_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psh/ros_code/build/test_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psh/ros_code/install/test_interfaces', 'merge_install': False, 'path': '/home/psh/ros_code/src/test_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_target' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_clean_cache' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_clean_first' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'cmake_force_configure' from command line to 'False'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'ament_cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'catkin_cmake_args' from command line to 'None'
+[2.135s] Level 5:colcon.colcon_core.verb:set package 'test_num' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.136s] DEBUG:colcon.colcon_core.verb:Building package 'test_num' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/psh/ros_code/build/test_num', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/psh/ros_code/install/test_num', 'merge_install': False, 'path': '/home/psh/ros_code/test_num', 'symlink_install': True, 'test_result_base': None}
+[2.138s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.156s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/psh/ros_code/src/m_pubsub' with build type 'ament_python'
+[2.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'ament_prefix_path')
+[2.175s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/ament_prefix_path.sh'
+[2.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.795s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/psh/ros_code/src/m_pubsub'
+[2.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.804s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psh/ros_code/build/m_pubsub': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
+[4.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'pythonpath_develop')
+[4.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psh/ros_code/build/m_pubsub' returned '0': PYTHONPATH=/home/psh/ros_code/build/m_pubsub/prefix_override:/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/m_pubsub/build --no-deps install_data
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.ps1'
+[4.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.dsv'
+[4.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/m_pubsub/share/m_pubsub/hook/pythonpath_develop.sh'
+[4.908s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub' for CMake module files
+[4.909s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub' for CMake config files
+[4.911s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub/lib'
+[4.911s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub/bin'
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub/lib/pkgconfig/m_pubsub.pc'
+[4.913s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub/lib/python3.8/site-packages'
+[4.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('m_pubsub', 'pythonpath')
+[4.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/pythonpath.ps1'
+[4.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/pythonpath.dsv'
+[4.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/hook/pythonpath.sh'
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/m_pubsub/bin'
+[4.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(m_pubsub)
+[4.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/package.ps1'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/package.dsv'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/package.sh'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/package.bash'
+[4.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/m_pubsub/share/m_pubsub/package.zsh'
+[4.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psh/ros_code/install/m_pubsub/share/colcon-core/packages/m_pubsub)
+[4.962s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/psh/ros_code/move_turtle_pkg' with build type 'ament_python'
+[4.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'ament_prefix_path')
+[4.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.ps1'
+[4.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.dsv'
+[4.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/ament_prefix_path.sh'
+[5.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.573s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/psh/ros_code/move_turtle_pkg'
+[5.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psh/ros_code/build/move_turtle_pkg': PYTHONPATH=/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/move_turtle_pkg/build --no-deps install_data
+[7.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'pythonpath_develop')
+[7.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psh/ros_code/build/move_turtle_pkg' returned '0': PYTHONPATH=/home/psh/ros_code/build/move_turtle_pkg/prefix_override:/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/move_turtle_pkg/build --no-deps install_data
+[7.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.ps1'
+[7.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.dsv'
+[7.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath_develop.sh'
+[7.948s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg' for CMake module files
+[7.953s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg' for CMake config files
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg/lib'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg/bin'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg/lib/pkgconfig/move_turtle_pkg.pc'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg/lib/python3.8/site-packages'
+[7.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle_pkg', 'pythonpath')
+[7.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.ps1'
+[7.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.dsv'
+[7.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/hook/pythonpath.sh'
+[7.978s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/move_turtle_pkg/bin'
+[7.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_turtle_pkg)
+[7.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/package.ps1'
+[7.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/package.dsv'
+[7.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/package.sh'
+[7.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/package.bash'
+[8.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/move_turtle_pkg/share/move_turtle_pkg/package.zsh'
+[8.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psh/ros_code/install/move_turtle_pkg/share/colcon-core/packages/move_turtle_pkg)
+[8.005s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/psh/ros_code/src/test_interfaces' with build type 'ament_cmake'
+[8.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/psh/ros_code/src/test_interfaces'
+[8.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psh/ros_code/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/psh/ros_code/build/test_interfaces -- -j1 -l1
+[8.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psh/ros_code/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/psh/ros_code/build/test_interfaces -- -j1 -l1
+[9.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psh/ros_code/build/test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/psh/ros_code/build/test_interfaces
+[9.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_interfaces)
+[9.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psh/ros_code/build/test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/psh/ros_code/install/test_num:/home/psh/ros_code/install/move_turtle_pkg:/home/psh/ros_code/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/psh/ros_code/build/test_interfaces
+[9.341s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces' for CMake module files
+[9.342s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces' for CMake config files
+[9.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'cmake_prefix_path')
+[9.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.ps1'
+[9.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.dsv'
+[9.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.sh'
+[9.354s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib'
+[9.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'ld_library_path_lib')
+[9.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.ps1'
+[9.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.dsv'
+[9.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.sh'
+[9.362s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/bin'
+[9.362s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib/pkgconfig/test_interfaces.pc'
+[9.363s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages'
+[9.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'pythonpath')
+[9.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.ps1'
+[9.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.dsv'
+[9.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.sh'
+[9.382s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/bin'
+[9.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.ps1'
+[9.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.dsv'
+[9.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.sh'
+[9.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.bash'
+[9.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.zsh'
+[9.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psh/ros_code/install/test_interfaces/share/colcon-core/packages/test_interfaces)
+[9.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_interfaces)
+[9.581s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces' for CMake module files
+[9.582s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces' for CMake config files
+[9.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'cmake_prefix_path')
+[9.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.ps1'
+[9.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.dsv'
+[9.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/cmake_prefix_path.sh'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib'
+[9.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'ld_library_path_lib')
+[9.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.ps1'
+[9.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.dsv'
+[9.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/ld_library_path_lib.sh'
+[9.605s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/bin'
+[9.606s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib/pkgconfig/test_interfaces.pc'
+[9.606s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/lib/python3.8/site-packages'
+[9.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_interfaces', 'pythonpath')
+[9.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.ps1'
+[9.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.dsv'
+[9.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/hook/pythonpath.sh'
+[9.615s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_interfaces/bin'
+[9.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.ps1'
+[9.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.dsv'
+[9.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.sh'
+[9.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.bash'
+[9.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_interfaces/share/test_interfaces/package.zsh'
+[9.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psh/ros_code/install/test_interfaces/share/colcon-core/packages/test_interfaces)
+[9.630s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/psh/ros_code/test_num' with build type 'ament_python'
+[9.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'ament_prefix_path')
+[9.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_num/share/test_num/hook/ament_prefix_path.ps1'
+[9.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_num/share/test_num/hook/ament_prefix_path.dsv'
+[9.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_num/share/test_num/hook/ament_prefix_path.sh'
+[9.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.233s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/psh/ros_code/test_num'
+[10.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/psh/ros_code/build/test_num': PYTHONPATH=/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_num/build --no-deps install_data
+[12.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'pythonpath_develop')
+[12.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/psh/ros_code/build/test_num' returned '0': PYTHONPATH=/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_num/build --no-deps install_data
+[12.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/test_num/share/test_num/hook/pythonpath_develop.ps1'
+[12.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/build/test_num/share/test_num/hook/pythonpath_develop.dsv'
+[12.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/build/test_num/share/test_num/hook/pythonpath_develop.sh'
+[12.203s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num' for CMake module files
+[12.206s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num' for CMake config files
+[12.207s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num/lib'
+[12.207s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num/bin'
+[12.208s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num/lib/pkgconfig/test_num.pc'
+[12.209s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num/lib/python3.8/site-packages'
+[12.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_num', 'pythonpath')
+[12.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_num/share/test_num/hook/pythonpath.ps1'
+[12.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/psh/ros_code/install/test_num/share/test_num/hook/pythonpath.dsv'
+[12.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/psh/ros_code/install/test_num/share/test_num/hook/pythonpath.sh'
+[12.227s] Level 1:colcon.colcon_core.environment:checking '/home/psh/ros_code/install/test_num/bin'
+[12.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_num)
+[12.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_num/share/test_num/package.ps1'
+[12.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/psh/ros_code/install/test_num/share/test_num/package.dsv'
+[12.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_num/share/test_num/package.sh'
+[12.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_num/share/test_num/package.bash'
+[12.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/psh/ros_code/install/test_num/share/test_num/package.zsh'
+[12.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/psh/ros_code/install/test_num/share/colcon-core/packages/test_num)
+[12.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.241s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.282s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.310s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psh/ros_code/install/local_setup.ps1'
+[12.327s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/psh/ros_code/install/_local_setup_util_ps1.py'
+[12.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psh/ros_code/install/setup.ps1'
+[12.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psh/ros_code/install/local_setup.sh'
+[12.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/psh/ros_code/install/_local_setup_util_sh.py'
+[12.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psh/ros_code/install/setup.sh'
+[12.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psh/ros_code/install/local_setup.bash'
+[12.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psh/ros_code/install/setup.bash'
+[12.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/psh/ros_code/install/local_setup.zsh'
+[12.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/psh/ros_code/install/setup.zsh'

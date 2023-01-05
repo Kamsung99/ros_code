@@ -1,0 +1,20 @@
+[1.612s] Invoking command in '/home/psh/ros_code/build/test_num': PYTHONPATH=/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_num/build --no-deps install_data
+[2.189s] running develop
+[2.487s] running egg_info
+[2.488s] writing test_num.egg-info/PKG-INFO
+[2.488s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[2.489s] writing entry points to test_num.egg-info/entry_points.txt
+[2.490s] writing requirements to test_num.egg-info/requires.txt
+[2.491s] writing top-level names to test_num.egg-info/top_level.txt
+[2.583s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[2.586s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[2.680s] running build_ext
+[2.682s] Creating /home/psh/ros_code/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[2.684s] Installing fac script to /home/psh/ros_code/install/test_num/lib/test_num
+[2.685s] Installing fas script to /home/psh/ros_code/install/test_num/lib/test_num
+[2.685s] Installing msc script to /home/psh/ros_code/install/test_num/lib/test_num
+[2.686s] Installing mss1 script to /home/psh/ros_code/install/test_num/lib/test_num
+[2.687s] 
+[2.687s] Installed /home/psh/ros_code/build/test_num
+[2.688s] running install_data
+[2.762s] Invoked command in '/home/psh/ros_code/build/test_num' returned '0': PYTHONPATH=/home/psh/ros_code/build/test_num/prefix_override:/home/psh/ros_code/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_num/build --no-deps install_data

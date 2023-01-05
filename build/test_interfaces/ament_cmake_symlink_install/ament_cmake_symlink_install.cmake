@@ -358,6 +358,9 @@ ament_cmake_symlink_install_directory("/home/psh/ros_code/src/test_interfaces" D
 # install(DIRECTORY "/home/psh/ros_code/build/test_interfaces/rosidl_generator_py/test_interfaces/srv/" "DESTINATION" "lib/python3.8/site-packages/test_interfaces/srv" "PATTERN" "*.py")
 ament_cmake_symlink_install_directory("/home/psh/ros_code/src/test_interfaces" DIRECTORY "/home/psh/ros_code/build/test_interfaces/rosidl_generator_py/test_interfaces/srv/" "DESTINATION" "lib/python3.8/site-packages/test_interfaces/srv" "PATTERN" "*.py")
 
+# install(DIRECTORY "/home/psh/ros_code/build/test_interfaces/rosidl_generator_py/test_interfaces/action/" "DESTINATION" "lib/python3.8/site-packages/test_interfaces/action" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/psh/ros_code/src/test_interfaces" DIRECTORY "/home/psh/ros_code/build/test_interfaces/rosidl_generator_py/test_interfaces/action/" "DESTINATION" "lib/python3.8/site-packages/test_interfaces/action" "PATTERN" "*.py")
+
 # install("TARGETS" "test_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/test_interfaces")
 include("/home/psh/ros_code/build/test_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
@@ -379,6 +382,9 @@ ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES
 # install(FILES "/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces/srv/MinusThreeInts.idl" "DESTINATION" "share/test_interfaces/srv")
 ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces/srv/MinusThreeInts.idl" "DESTINATION" "share/test_interfaces/srv")
 
+# install(FILES "/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces/action/Fibonacci.idl" "DESTINATION" "share/test_interfaces/action")
+ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/build/test_interfaces/rosidl_adapter/test_interfaces/action/Fibonacci.idl" "DESTINATION" "share/test_interfaces/action")
+
 # install(FILES "/home/psh/ros_code/src/test_interfaces/msg/Intfloat.msg" "DESTINATION" "share/test_interfaces/msg")
 ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/src/test_interfaces/msg/Intfloat.msg" "DESTINATION" "share/test_interfaces/msg")
 
@@ -399,6 +405,9 @@ ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES
 
 # install(FILES "/home/psh/ros_code/build/test_interfaces/rosidl_cmake/srv/MinusThreeInts_Response.msg" "DESTINATION" "share/test_interfaces/srv")
 ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/build/test_interfaces/rosidl_cmake/srv/MinusThreeInts_Response.msg" "DESTINATION" "share/test_interfaces/srv")
+
+# install(FILES "/home/psh/ros_code/src/test_interfaces/action/Fibonacci.action" "DESTINATION" "share/test_interfaces/action")
+ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/src/test_interfaces/action/Fibonacci.action" "DESTINATION" "share/test_interfaces/action")
 
 # install(FILES "/home/psh/ros_code/build/test_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/psh/ros_code/src/test_interfaces" FILES "/home/psh/ros_code/build/test_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

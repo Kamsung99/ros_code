@@ -1,0 +1,24 @@
+[3.121s] Invoking command in '/home/psh/ros_code/src/build/test_para': PYTHONPATH=/home/psh/ros_code/src/build/test_para/prefix_override:/home/psh/ros_code/src/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/src/build/test_para/build --no-deps install_data
+[3.691s] running develop
+[4.002s] running egg_info
+[4.002s] creating test_para.egg-info
+[4.003s] writing test_para.egg-info/PKG-INFO
+[4.004s] writing dependency_links to test_para.egg-info/dependency_links.txt
+[4.004s] writing entry points to test_para.egg-info/entry_points.txt
+[4.005s] writing requirements to test_para.egg-info/requires.txt
+[4.006s] writing top-level names to test_para.egg-info/top_level.txt
+[4.008s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[4.119s] reading manifest file 'test_para.egg-info/SOURCES.txt'
+[4.121s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[4.248s] running build_ext
+[4.249s] Creating /home/psh/ros_code/src/install/test_para/lib/python3.8/site-packages/site.py
+[4.253s] Creating /home/psh/ros_code/src/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)
+[4.255s] 
+[4.255s] Installed /home/psh/ros_code/src/build/test_para
+[4.256s] running install_data
+[4.261s] creating /home/psh/ros_code/src/install/test_para/share/ament_index
+[4.262s] creating /home/psh/ros_code/src/install/test_para/share/ament_index/resource_index
+[4.262s] creating /home/psh/ros_code/src/install/test_para/share/ament_index/resource_index/packages
+[4.263s] copying resource/test_para -> /home/psh/ros_code/src/install/test_para/share/ament_index/resource_index/packages
+[4.263s] copying package.xml -> /home/psh/ros_code/src/install/test_para/share/test_para
+[4.331s] Invoked command in '/home/psh/ros_code/src/build/test_para' returned '0': PYTHONPATH=/home/psh/ros_code/src/build/test_para/prefix_override:/home/psh/ros_code/src/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/src/build/test_para/build --no-deps install_data

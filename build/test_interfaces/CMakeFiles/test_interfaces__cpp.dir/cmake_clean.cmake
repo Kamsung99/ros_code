@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_interfaces__cpp"
+  "rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__builder.hpp"
+  "rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__struct.hpp"
+  "rosidl_generator_cpp/test_interfaces/action/detail/fibonacci__traits.hpp"
+  "rosidl_generator_cpp/test_interfaces/action/fibonacci.hpp"
   "rosidl_generator_cpp/test_interfaces/msg/detail/intfloat__builder.hpp"
   "rosidl_generator_cpp/test_interfaces/msg/detail/intfloat__struct.hpp"
   "rosidl_generator_cpp/test_interfaces/msg/detail/intfloat__traits.hpp"

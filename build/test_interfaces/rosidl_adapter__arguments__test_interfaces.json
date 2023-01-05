@@ -3,6 +3,7 @@
   "non_idl_tuples": [
     "/home/psh/ros_code/src/test_interfaces:msg/Intfloat.msg",
     "/home/psh/ros_code/src/test_interfaces:srv/AddThreeInts.srv",
-    "/home/psh/ros_code/src/test_interfaces:srv/MinusThreeInts.srv"
+    "/home/psh/ros_code/src/test_interfaces:srv/MinusThreeInts.srv",
+    "/home/psh/ros_code/src/test_interfaces:action/Fibonacci.action"
   ]
 }

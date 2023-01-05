@@ -1,0 +1,17 @@
+[2.756s] Invoking command in '/home/psh/ros_code/build/test_para': PYTHONPATH=/home/psh/ros_code/build/test_para/prefix_override:/home/psh/ros_code/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_para/build --no-deps install_data
+[3.343s] running develop
+[3.623s] running egg_info
+[3.623s] writing test_para.egg-info/PKG-INFO
+[3.624s] writing dependency_links to test_para.egg-info/dependency_links.txt
+[3.625s] writing entry points to test_para.egg-info/entry_points.txt
+[3.626s] writing requirements to test_para.egg-info/requires.txt
+[3.627s] writing top-level names to test_para.egg-info/top_level.txt
+[3.710s] reading manifest file 'test_para.egg-info/SOURCES.txt'
+[3.713s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[3.817s] running build_ext
+[3.818s] Creating /home/psh/ros_code/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)
+[3.820s] Installing tp script to /home/psh/ros_code/install/test_para/lib/test_para
+[3.821s] 
+[3.822s] Installed /home/psh/ros_code/build/test_para
+[3.822s] running install_data
+[3.875s] Invoked command in '/home/psh/ros_code/build/test_para' returned '0': PYTHONPATH=/home/psh/ros_code/build/test_para/prefix_override:/home/psh/ros_code/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/psh/ros_code/build/test_para/build --no-deps install_data
