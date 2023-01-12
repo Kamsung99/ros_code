@@ -1,6 +1,9 @@
 package.xml
 setup.cfg
 setup.py
+config/my_para_file.yaml
+launch/test_para.launch.py
+launch/turtlesim_mimic.launch.py
 resource/test_para
 test_para/__init__.py
 test_para/test_py_para.py

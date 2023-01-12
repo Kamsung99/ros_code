@@ -78,3 +78,29 @@
 	* 서비스와 유사
 		* 노드 내 매개변수를 서비스 데이터 통신 방법을 사용하여 노드 내부 또는 외부에서 쉽게 지정(Set) 하거나 변경할 수 있고, 쉽게 가져(Get)와서 사용
 		* 그와 다르게 서비스는 서비스가 서비스 요청과 응답이라는 RPC(remote procedure call)가 목적
+---
+# 2023_1_6
+---
+* ssh 접속하여 ros topic 전달 확인
+* sudo apt install ros-foxy-image-transport* 로 이미지, 영상을 볼 수 있음
+	* 기존 PC에서 작업
+*	카메라 작착 및 카메라 테스트
+	*	turtlebot에서 작업.
+		*	git clone https://github.com/christianrauch/raspicam2_node.git
+			*	패키지 충돌로 인해 아래 3코드를 사용해야 함
+			*	sudo apt autoremove --purge libgles2-mesa-dev mesa-common-dev 충돌하는 비디오제거
+			*	sudo add-apt-repository ppa:ubuntu-pi-flavour-makers/ppa 파이캠 필요한 라이브러리
+			*	sudo apt install libraspberrypi-bin libraspberrypi-dev 파이캠 필요한 라이브러리
+			*	sudo usermod -a -G video ubuntu 카메라 유저권한 접근성 등록.
+			* sudo apt-get install v4l-utils
+			*	v4l2-ctl --list-devices 카메라 잡히는지 확인, 안될경우 밑의 코드를 연이어 실행
+			*	df -h #Find your device numbert 디바이스 확인. 장치마다 p1, p2, p3등 다름
+			* wget https://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20160527_all.deb -P /tmp 라스피컨피그 설치
+			*	sudo apt-get install libnewt0.52 whiptail parted triggerhappy lua5.1 alsa-utils -y 라스피컨피크 설치
+			* sudo apt-get install -fy
+			*	sudo dpkg -i /tmp/raspi-config_20160527_all.deb
+			* cd /boot/firmware
+			*	sudo vi config.txt 로 이동하여 밑의 줄을 추가
+				* start_x=1
+				*	gpu_mem = 128
+			* sudo reboot 로 다시 시작하여 마침
