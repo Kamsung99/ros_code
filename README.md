@@ -2,7 +2,7 @@
 # 2023/01/02~
 * ros2 연습 git
 - - -
-# 2023_1_2
+# 2023_01_02
 - - -
 * 우분투 20.04 버전 Vmware 안에 설치
 
@@ -19,7 +19,7 @@
 * entry_points 에 ‘패키지명’.’파일명’:main 으로 만들며 ‘,’로 여러 개를 만들 수 있음
 	* ex) 'move_turtle = move_turtle_pkg.move_turtle:main' -> move_turtlepkg라는 패키지에 setup.py에 있는 move_turtle를 실행
 ---
-# 2023_1_3
+# 2023_01_03
 ---
 * turtle1 토픽을 움직이는 file
 	* move_turtle.py
@@ -46,7 +46,7 @@
 
 * + opencv2에서 이미지 로드, 회전, 색상 변경 등 진행
 ---
-# 2023_1_4
+# 2023_01_04
 ---
 * 서비스는 토픽처럼 주기적이 아닌 일회성으로 사용할때 사용한다.
 * 서비스 코드 작성
@@ -54,7 +54,8 @@
 	* ./test_num/test_service_ser1.py -> 서버
 * 인터페이스
 * 에러 발생
-	* Traceback (most recent call last):
+	~~~
+	Traceback (most recent call last):
 		File "<string>", line 1, in <module>
 		File "/usr/lib/python3.8/distutils/core.py", line 215, in run_setup
 			exec(f.read(), g)
@@ -73,8 +74,9 @@
 		File "/usr/lib/python3.8/subprocess.py", line 516, in run
 			raise CalledProcessError(retcode, process.args,
 	subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    'setup.py', script_args=('--dry-run',), stop_after='config');skip_keys = ('cmdclass', 'distclass', 'ext_modules', 'metadata');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith('_') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data['metadata'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in ('license_files', 'provides_extras')};sys.stdout.buffer.write(repr(data).encode('utf-8'))"]' returned non-zero exit status 1.
+	~~~
 ---
-# 2023_1_5
+# 2023_01_05
 ---
 * 파라미터
 	* Node 안에서 사용하는 변수같은 것
@@ -82,7 +84,7 @@
 		* 노드 내 매개변수를 서비스 데이터 통신 방법을 사용하여 노드 내부 또는 외부에서 쉽게 지정(Set) 하거나 변경할 수 있고, 쉽게 가져(Get)와서 사용
 		* 그와 다르게 서비스는 서비스가 서비스 요청과 응답이라는 RPC(remote procedure call)가 목적
 ---
-# 2023_1_6
+# 2023_01_06
 ---
 * ssh 접속하여 ros topic 전달 확인
 * sudo apt install ros-foxy-image-transport* 로 이미지, 영상을 볼 수 있음
@@ -107,3 +109,34 @@
 				* start_x=1
 				*	gpu_mem = 128
 			* sudo reboot 로 다시 시작하여 마침
+---
+# 2023_01_09
+---
+* tp_link 802ac - USB wifi driver 설치
+	~~~
+	sudo apt purge rtl8812au-dkms
+	sudo apt install git
+	git clone https://github.com/gnab/rtl8812au.git
+	sudo cp -r rtl8812au  /usr/src/rtl8812au-4.2.2
+	sudo dkms add -m rtl8812au -v 4.2.2
+	sudo dkms build -m rtl8812au -v 4.2.2
+	sudo dkms install -m rtl8812au -v 4.2.2
+	~~~
+---
+# 2023_01_13
+---
+* SALM으로 지도 생성후 저장시, timeout에러 발생
+	* error code (test 라는 이름으로 지도를 저장)
+		* `ros2 run nav2_map_server map_saver_cli -f ~/test`
+	* 해결 코드 (timeout 설정으로 저장)
+		* `ros2 run nav2_map_server map_saver_cli -f ~/test --ros-args -p save_map_timeout:=10000`
+
+* 네비게이션 로봇 크기와 inflation 변경 하는 방법 -> 너무 크게 설정 되어있으면 navigation이 움직이지 못하는 현상 발생
+	* /opt/ros/foxy/share/nav2_bringup/params/nav2_params.yaml 수정
+		* local_costmap: local_costmap: ros_parameters: robot_radius 0.11변경
+		* local_costmap: local_costmap: ros_parameters: inflation_layer: cost_scaling_factor: 0.3변경
+		* local_costmap: local_costmap: ros_parameters: inflation_layer: inflation_radius: 0.055 변경
+		* global_costmap: global_costmap: ros_parameters: robot_radius 0.11변경
+		* global_costmap: global_costmap: ros_parameters: inflation_layer: cost_scaling_factor: 0.3변경
+		* global_costmap: global_costmap: ros_parameters: inflation_layer: inflation_radius: 0.055 변경
+	* 네비게이션 관련 변경한 내용이 있으면 turtlebot3_navi 에 있는 param 건들지 말고 여기거를 건드려야 적용됨!

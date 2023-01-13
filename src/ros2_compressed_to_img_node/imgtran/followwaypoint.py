@@ -1,11 +1,11 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import PoseStamped 
+from geometry_msgs.msg import PoseStamped
 from rclpy.action import ActionClient
 from action_msgs.msg import GoalStatus
 from nav2_msgs.action import FollowWaypoints
 # from rclpy.duration import Duration # Handles time for ROS 2
- 
+
 class ClientFollowPoints(Node):
 
     def __init__(self):
@@ -50,12 +50,25 @@ def main(args=None):
     rgoal.header.stamp.sec = 0
     rgoal.header.stamp.nanosec = 0
     rgoal.pose.position.z = 0.0
-    rgoal.pose.position.x = 0.2
+    rgoal.pose.position.x = 3.6
     rgoal.pose.position.y = 1.3
     rgoal.pose.orientation.w = 1.0
     print(rgoal)
     mgoal = [rgoal]
 
     follow_points_client.send_points(mgoal)
+    rclpy.spin(follow_points_client)
 
+    rgoal2 = PoseStamped()
+    rgoal2.header.frame_id = "map"
+    rgoal2.header.stamp.sec = 0
+    rgoal2.header.stamp.nanosec = 0
+    rgoal2.pose.position.z = 0.0
+    rgoal2.pose.position.x = 2.5
+    rgoal2.pose.position.y = 2.5
+    rgoal2.pose.orientation.w = 1.0
+    print(rgoal2)
+    mgoal = [rgoal2]
+
+    follow_points_client.send_points(mgoal)
     rclpy.spin(follow_points_client)

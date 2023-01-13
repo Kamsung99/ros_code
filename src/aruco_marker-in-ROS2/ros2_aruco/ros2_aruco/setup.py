@@ -4,7 +4,7 @@ package_name = 'ros2_aruco'
 
 setup(
     name=package_name,
-    version='0.1.0',
+    version='0.0.0',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Nathan Sprague',
-    maintainer_email='nathan.r.sprague@gmail.com',
+    maintainer='psh',
+    maintainer_email='aq123465@naver.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
