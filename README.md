@@ -53,7 +53,7 @@
 	* ./test_num/test_service_client.py -> 클라이언트
 	* ./test_num/test_service_ser1.py -> 서버
 * 인터페이스
-* 에러 발생
+* 경고 발생 -> 그러나 코드 실행은 잘됨?
 	~~~
 	Traceback (most recent call last):
 		File "<string>", line 1, in <module>
@@ -112,7 +112,7 @@
 ---
 # 2023_01_09
 ---
-* tp_link 802ac - USB wifi driver 설치
+* tp_link 802ac - USB wifi driver 설치 -> 체감 x
 	~~~
 	sudo apt purge rtl8812au-dkms
 	sudo apt install git
@@ -122,14 +122,20 @@
 	sudo dkms build -m rtl8812au -v 4.2.2
 	sudo dkms install -m rtl8812au -v 4.2.2
 	~~~
+* 원활한 통신 환경을 위해서 좋은 wifi 모듈이 필요
+* 리눅스 듀얼 부팅으로 노트북 와이파이 사용 고려
+* wifi 접속 불안정 문제 발생
+	* 그래서 터틀봇과 가상머신 우분투와의 원격 접속이 불안정함
+	* 단순히 사용자가 많아서 그러는것으로 유추.. 핫스팟등 다른 wifi를 갖출 필요가 있음
+* raspicam2-node에서 발행하는 Topic 이 너무 느림. 평균 0.15 Hz -> 카메라 사용에 문제 발생
 ---
 # 2023_01_13
 ---
 * SALM으로 지도 생성후 저장시, timeout에러 발생
 	* error code (test 라는 이름으로 지도를 저장)
-		* `ros2 run nav2_map_server map_saver_cli -f ~/test`
+		`ros2 run nav2_map_server map_saver_cli -f ~/test`
 	* 해결 코드 (timeout 설정으로 저장)
-		* `ros2 run nav2_map_server map_saver_cli -f ~/test --ros-args -p save_map_timeout:=10000`
+		`ros2 run nav2_map_server map_saver_cli -f ~/test --ros-args -p save_map_timeout:=10000`
 
 * 네비게이션 로봇 크기와 inflation 변경 하는 방법 -> 너무 크게 설정 되어있으면 navigation이 움직이지 못하는 현상 발생
 	* /opt/ros/foxy/share/nav2_bringup/params/nav2_params.yaml 수정
