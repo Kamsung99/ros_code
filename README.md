@@ -147,4 +147,4 @@
 		* global_costmap: global_costmap: ros_parameters: inflation_layer: inflation_radius: 0.055 변경
 	* 네비게이션 관련 변경한 내용이 있으면 turtlebot3_navi 에 있는 param 건들지 말고 여기거를 건드려야 적용됨!
 
-* 프로젝트 중간 발표를 하였음
+* 프로젝트 발표를 하였음
